@@ -1,0 +1,35 @@
+﻿Build started 04-Nov-15 11:21:12 AM.
+     1>Project "C:\Users\mafoti\Documents\Visual Studio 2013\Projects\trunk gridlab-d-code-StrategicConsumer\residential\residential.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\VS2005\Win32\Debug\residential.dll" /INCREMENTAL /NOLOGO /LIBPATH:..\VS2005\Win32\Debug\ kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\VS2005\Win32\Debug\residential.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\VS2005\Win32\Debug\residential.lib" /MACHINE:X86 /SAFESEH /DLL Win32\Debug\residential\appliance.obj
+         Win32\Debug\residential\clotheswasher.obj
+         Win32\Debug\residential\dishwasher.obj
+         Win32\Debug\residential\dryer.obj
+         Win32\Debug\residential\evcharger.obj
+         Win32\Debug\residential\evcharger_det.obj
+         Win32\Debug\residential\freezer.obj
+         Win32\Debug\residential\house_a.obj
+         Win32\Debug\residential\house_e.obj
+         Win32\Debug\residential\init.obj
+         Win32\Debug\residential\jacuzzi.obj
+         Win32\Debug\residential\lights.obj
+         Win32\Debug\residential\main.obj
+         Win32\Debug\residential\microwave.obj
+         Win32\Debug\residential\occupantload.obj
+         Win32\Debug\residential\plugload.obj
+         Win32\Debug\residential\range.obj
+         Win32\Debug\residential\refrigerator.obj
+         Win32\Debug\residential\residential_enduse.obj
+         Win32\Debug\residential\solvers.obj
+         Win32\Debug\residential\thermal_storage.obj
+         Win32\Debug\residential\waterheater.obj
+         Win32\Debug\residential\zipload.obj
+         LINK : ..\VS2005\Win32\Debug\residential.dll not found or not built by the last incremental link; performing full link
+     1>appliance.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+            Creating library ..\VS2005\Win32\Debug\residential.lib and object ..\VS2005\Win32\Debug\residential.exp
+         residential.vcxproj -> C:\Users\mafoti\Documents\Visual Studio 2013\Projects\trunk gridlab-d-code-StrategicConsumer\residential\..\VS2005\Win32\Debug\residential.dll
+     1>Done Building Project "C:\Users\mafoti\Documents\Visual Studio 2013\Projects\trunk gridlab-d-code-StrategicConsumer\residential\residential.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.07

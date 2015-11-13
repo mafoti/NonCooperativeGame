@@ -1,0 +1,1157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Test Files">
+      <UniqueIdentifier>{089573e6-a8ad-43fc-999e-7e6540c45750}</UniqueIdentifier>
+      <Extensions>glm</Extensions>
+    </Filter>
+    <Filter Include="Autotest">
+      <UniqueIdentifier>{28883afb-482a-4a02-8cce-764325f71e29}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="billdump.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="capacitor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="currdump.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="emissions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fault_check.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frequency_gen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fuse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="init.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="line.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="line_configuration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="line_spacing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="link.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="load.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="load_tracker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="meter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="motor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="node.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="overhead_line.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="overhead_line_conductor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="power_metrics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="powerflow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="powerflow_library.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="powerflow_object.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pqload.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="recloser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="regulator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="regulator_configuration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="restoration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sectionalizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="series_reactor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="solver_nr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="substation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="switch_object.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="transformer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="transformer_configuration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="triplex_line.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="triplex_line_conductor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="triplex_line_configuration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="triplex_load.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="triplex_meter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="triplex_node.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="underground_line.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="underground_line_conductor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="volt_var_control.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="voltdump.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="billdump.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="capacitor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="check.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="currdump.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="emissions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fault_check.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frequency_gen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fuse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="line.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="line_configuration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="line_spacing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="link.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="load.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="load_tracker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="meter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="meter_test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="motor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="node.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="overhead_line.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="overhead_line_conductor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="overheadline_test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="power_metrics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="powerflow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="powerflow_library.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="powerflow_object.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pqload.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="recloser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="regulator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="regulator_configuration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="regulator_test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="restoration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sectionalizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="series_reactor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="solver_nr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="substation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="switch_object.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="transformer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="transformer_configuration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="transformer_test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="triplex_line.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="triplex_line_conductor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="triplex_line_configuration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="triplex_load.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="triplex_meter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="triplex_node.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="triplexline_test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="underground_line.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="underground_line_conductor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="undergroundline_test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="volt_var_control.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="voltdump.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tests\4node\balanced_stepdown_D-D.glm">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="tests\4node\balanced_stepdown_D-grY.glm">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="tests\4node\balanced_stepdown_grY-grY.glm">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="tests\4node\balanced_stepup_D-D.glm">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="tests\4node\balanced_stepup_D-grY.glm">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="tests\4node\balanced_stepup_grY-grY.glm">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="tests\37node\IEEE37-Dec17.glm">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="test\test.glm">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="tests\4node\unbalanced_stepdown_D-D.glm">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="tests\4node\unbalanced_stepdown_D-grY.glm">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="tests\4node\unbalanced_stepdown_grY-grY.glm">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="tests\4node\unbalanced_stepup_D-D.glm">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="tests\4node\unbalanced_stepup_D-grY.glm">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="tests\4node\unbalanced_stepup_grY-grY.glm">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="autotest\billing_power.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\cap_current_A_indiv_volt.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\cap_current_B_indiv_volt.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\cap_current_C_indiv_volt.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\cap_manual_switch.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\cap_volt_A_bank_dwell.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\cap_volt_A_BANK_VAR_dwell.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\cap_volt_A_indiv_dwell.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\cap_volt_A_indiv_dwell_NR.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\cap_volt_A_indiv_VAR.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\cap_volt_A_indiv_VAR_B_NR.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\cap_volt_A_indiv_VAR_dwell.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\cap_volt_A_indiv_VAR_dwell_NR.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\cap_volt_A_indiv_VAR_NR.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\cap_volt_A_indiv_volt.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\cap_volt_A_indiv_volt_NR.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\cap_volt_A_indiv_volt_NR_Y.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\cap_volt_A_indiv_VOLTVAR.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\cap_volt_A_indiv_VOLTVAR_dwell.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\cap_volt_A_indiv_VOLTVAR_NR.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\cap_volt_A_manual_ts.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\cap_volt_B_bank_dwell.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\cap_volt_B_BANK_VAR_dwell.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\cap_volt_B_indiv_dwell.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\cap_volt_B_indiv_dwell_NR.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\cap_volt_B_indiv_VAR.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\cap_volt_B_indiv_VAR_B_NR.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\cap_volt_B_indiv_VAR_dwell.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\cap_volt_B_indiv_VAR_dwell_NR.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\cap_volt_B_indiv_VAR_NR.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\cap_volt_B_indiv_volt.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\cap_volt_B_indiv_volt_NR.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\cap_volt_B_indiv_volt_NR_Y.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\cap_volt_B_indiv_VOLTVAR.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\cap_volt_B_indiv_VOLTVAR_dwell.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\cap_volt_B_indiv_VOLTVAR_NR.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\cap_volt_B_manual_ts.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\cap_volt_C_bank_dwell.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\cap_volt_C_BANK_VAR_dwell.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\cap_volt_C_indiv_dwell.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\cap_volt_C_indiv_dwell_NR.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\cap_volt_C_indiv_VAR.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\cap_volt_C_indiv_VAR_B_NR.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\cap_volt_C_indiv_VAR_dwell.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\cap_volt_C_indiv_VAR_dwell_NR.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\cap_volt_C_indiv_VAR_NR.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\cap_volt_C_indiv_volt.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\cap_volt_C_indiv_volt_NR.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\cap_volt_C_indiv_volt_NR_Y.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\cap_volt_C_indiv_VOLTVAR.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\cap_volt_C_indiv_VOLTVAR_dwell.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\cap_volt_C_indiv_VOLTVAR_NR.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\cap_volt_C_manual_ts.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\center_tapped_basic_energy.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\center_tapped_complex_energy.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\dutycycle_player.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\fuse_assert_status_B.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\fuse_assert_status_C.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\fuse_load_B.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\fuse_ph_A_status.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\fuse_ph_B_status.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\fuse_ph_C_status.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\loader_fastA.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\loader_fastA_induct.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\loader_fastA_NR.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\loader_fastB.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\loader_fastB_induct.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\loader_fastB_NR.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\loader_fastC.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\loader_fastC_induct.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\loader_fastC_NR.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\regulator_load_phA.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\regulator_load_phB.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\regulator_load_phC.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\regulator_manual_YY_assert_A.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\regulator_manual_YY_assert_A_TypeB.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\regulator_manual_YY_assert_B.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\regulator_manual_YY_assert_B_TypeB.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\regulator_manual_YY_assert_C.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\regulator_manual_YY_assert_C_TypeB.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\regulator_manual_YY_tap_A.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\regulator_manual_YY_tap_B.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\regulator_manual_YY_tap_C.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\stub_bill_price.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\stub_nofee_bill_value.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_balanced_stepdown_D-D.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_balanced_stepdown_D-D_NR.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_balanced_stepdown_D-grY.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_balanced_stepdown_D-grY_NR.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_balanced_stepdown_D-grY_phA.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_balanced_stepdown_D-grY_phAB.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_balanced_stepdown_D-grY_phB.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_balanced_stepdown_D-grY_phC.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_balanced_stepdown_D_D_phA.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_balanced_stepdown_D_D_phAB.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_balanced_stepdown_D_D_phB.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_balanced_stepdown_D_D_phC.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_balanced_stepdown_grY-grY.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_balanced_stepdown_grY-grY_NR.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_balanced_stepdown_grY-grY_phA.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_balanced_stepdown_grY-grY_phAB.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_balanced_stepdown_grY-grY_phB.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_balanced_stepdown_grY-grY_phC.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_balanced_stepup_D-D.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_balanced_stepup_D-D_NR.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_balanced_stepup_D-D_phA.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_balanced_stepup_D-D_phAB.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_balanced_stepup_D-D_phB.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_balanced_stepup_D-D_phC.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_balanced_stepup_D-grY.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_balanced_stepup_D-grY_NR.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_balanced_stepup_D-grY_phA.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_balanced_stepup_D-grY_phAB.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_balanced_stepup_D-grY_phB.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_balanced_stepup_D-grY_phC.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_balanced_stepup_grY-grY.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_balanced_stepup_grY-grY_NR.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_balanced_stepup_grY-grY_phA.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_balanced_stepup_grY-grY_phAB.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_balanced_stepup_grY-grY_phB.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_balanced_stepup_grY-grY_phC.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_CURRENT_ABC_indiv.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_CURRENT_ABC_indiv_NR.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_manual_ABC_bank_time_series.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_manual_ABC_bank_time_series_NR.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_manual_ABC_time_series.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_manual_ABC_time_series_NR.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_manual_single_ABBCD.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_manual_single_ABBCD_NR.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_manual_single_ABBCD_service.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_manual_single_ABBCD_Y.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_manual_single_ABBCD_Y_NR.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_manual_single_ABCAD.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_manual_single_ABCAD_NR.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_manual_single_ABCAD_Y.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_manual_single_ABCAD_Y_NR.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_manual_single_ABD.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_manual_single_ABD_NR.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_manual_single_ABD_Y.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_manual_single_ABD_Y_NR.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_manual_single_ABN.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_manual_single_ABN_NR.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_manual_single_All_D.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_manual_single_All_D_NR.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_manual_single_All_D_Y.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_manual_single_All_D_Y_NR.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_manual_single_All_N.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_manual_single_All_N_NR.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_manual_single_allOff.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_manual_single_allOff_NR.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_manual_single_AN.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_manual_single_AN_NR.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_manual_single_BCCAD.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_manual_single_BCCAD_NR.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_manual_single_BCCAD_Y.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_manual_single_BCCAD_Y_NR.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_manual_single_BCD.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_manual_single_BCD_NR.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_manual_single_BCD_Y.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_manual_single_BCD_Y_NR.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_manual_single_BCN.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_manual_single_BCN_NR.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_manual_single_BN.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_manual_single_BN_NR.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_manual_single_CAD.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_manual_single_CAD_NR.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_manual_single_CAD_Y.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_manual_single_CAD_Y_NR.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_manual_single_CAN.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_manual_single_CAN_NR.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_manual_single_CN.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_manual_single_CN_NR.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_VAR_ABC_BANK_B.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_VAR_ABC_BANK_B_NR.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_VAR_ABC_indiv.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_VAR_ABC_indiv_dwell.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_VAR_ABC_indiv_dwell_NR.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_VAR_ABC_indiv_NR.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_VAR_ABC_indiv_Y.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_VAR_ABC_indiv_Y_NR.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_VAR_VOLT_ABC_indiv.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_VAR_VOLT_ABC_indiv_dwell.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_VAR_VOLT_ABC_indiv_dwell_NR.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_VAR_VOLT_ABC_indiv_NR.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_volt_ABC_BANK_A.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_volt_ABC_BANK_A_NR.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_volt_ABC_indiv.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_volt_ABC_indiv_dwell.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_volt_ABC_indiv_dwell_NR.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_volt_ABC_indiv_NR.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_volt_ABC_indiv_Y.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_volt_ABC_indiv_Y_NR.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_capacitor_volt_single_ABBCD_service.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_center_tapped_basic.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_center_tapped_basic_NR.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_center_tapped_complex.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_center_tapped_complex_NR.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_dutycycle.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_fuse.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_IEEE-123_FBS.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_IEEE-13_FBS.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_IEEE_13_FBS.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_IEEE_13_NR.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_IEEE_37node.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_opt_reg_linedropcomp2_YY_A_NR.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_opt_reg_linedropcomp2_YY_A_NR_ts.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_opt_reg_linedropcomp2_YY_B_NR.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_opt_reg_linedropcomp2_YY_B_NR_ts.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_opt_regulator_linedropcomp_YY_A_NR.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_opt_regulator_linedropcomp_YY_A_NR_ts.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_opt_regulator_linedropcomp_YY_B_NR.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_opt_regulator_linedropcomp_YY_B_NR_ts.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_powerflow_exercise_4_1_3.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_powerflow_transformer_thermal_model.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_regulator_linedropcomp2_YY_A.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_regulator_linedropcomp2_YY_A_ts.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_regulator_linedropcomp2_YY_B.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_regulator_linedropcomp2_YY_B_ts.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_regulator_linedropcomp_YY_A.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_regulator_linedropcomp_YY_A_ts.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_regulator_linedropcomp_YY_B.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_regulator_linedropcomp_YY_B_ts.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_regulator_manual_YY_A.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_regulator_manual_YY_A_1ph.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_regulator_manual_YY_A_1ph_NR.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_regulator_manual_YY_A_2ph.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_regulator_manual_YY_A_2ph_NR.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_regulator_manual_YY_A_NR.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_regulator_manual_YY_B.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_regulator_manual_YY_B_NR.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_regulator_outputvolt_YY_A.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_regulator_outputvolt_YY_A_NR.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_regulator_outputvolt_YY_A_NR_ts.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_regulator_outputvolt_YY_A_ts.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_regulator_outputvolt_YY_B.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_regulator_outputvolt_YY_B_NR.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_regulator_outputvolt_YY_B_NR_ts.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_regulator_outputvolt_YY_B_ts.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_regulator_remotesense_YY_A.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_regulator_remotesense_YY_A_NR.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_regulator_remotesense_YY_A_NR_ts.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_regulator_remotesense_YY_A_ts.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_regulator_remotesense_YY_B.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_regulator_remotesense_YY_B_NR.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_regulator_remotesense_YY_B_NR_ts.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_regulator_remotesense_YY_B_ts.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_triplex_billing_stub.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_triplex_billing_tiered_fee.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_triplex_billing_tiered_nofee.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_triplex_billing_uniform_fee.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_triplex_billing_uniform_nofee.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_unbalanced_stepdown_D-D.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_unbalanced_stepdown_D-D_NR.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_unbalanced_stepdown_D-grY.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_unbalanced_stepdown_D-grY_NR.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_unbalanced_stepdown_grY-grY.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_unbalanced_stepdown_grY-grY_NR.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_unbalanced_stepup_D-D.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_unbalanced_stepup_D-D_NR.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_unbalanced_stepup_D-grY.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_unbalanced_stepup_D-grY_NR.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_unbalanced_stepup_grY-grY.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_unbalanced_stepup_grY-grY_NR.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\WA-Yakima.tmy2">
+      <Filter>Autotest</Filter>
+    </None>
+  </ItemGroup>
+</Project>

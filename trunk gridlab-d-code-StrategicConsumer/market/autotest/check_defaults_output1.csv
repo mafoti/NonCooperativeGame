@@ -1,0 +1,19 @@
+# file...... check_defaults_output1.csv
+# date...... Mon May 04 15:52:52 2015
+# user...... mafoti
+# host...... (null)
+# target.... controller 10
+# trigger... (none)
+# interval.. 90
+# limit..... 4320
+# timestamp,simple_mode,period,setpoint,target,base_setpoint,control_mode,resolve_mode,demand,load,total,range_low,range_high,ramp_low,ramp_high,bid_mode,bid_price,bid_quantity,set_temp,house1:power_state,house1:cooling_demand,house1:cooling_setpoint,house1:air_temperature,house1:system_mode,average_target,standard_deviation_target,house1:hvac_load,house1:outdoor_temperature
+2001-06-25 14:00:00 PDT,NONE,+900,cooling_setpoint,air_temperature,+70,RAMP,DEADBAND,cooling_demand,hvac_load,total_load,+0,+5,+2,+2,ON,+100,+0.0043699,+70,OFF,+4.3699,+70,+72,OFF,current_price_mean_30min,current_price_stdev_30min,+0,+89.242
+2001-06-25 14:01:30 PDT,NONE,+900,cooling_setpoint,air_temperature,+70,RAMP,DEADBAND,cooling_demand,hvac_load,total_load,+0,+5,+2,+2,ON,+100,+0.0043699,+70,ON,+4.3699,+70,+71.3327,COOL,current_price_mean_30min,current_price_stdev_30min,+4.68767,+89.242
+2001-06-25 14:03:00 PDT,NONE,+900,cooling_setpoint,air_temperature,+70,RAMP,DEADBAND,cooling_demand,hvac_load,total_load,+0,+5,+2,+2,ON,+100,+0.0043699,+70,ON,+4.3699,+70,+70.7915,COOL,current_price_mean_30min,current_price_stdev_30min,+4.68767,+89.242
+2001-06-25 14:04:30 PDT,NONE,+900,cooling_setpoint,air_temperature,+70,RAMP,DEADBAND,cooling_demand,hvac_load,total_load,+0,+5,+2,+2,ON,+100,+0.0043699,+70,ON,+4.3699,+70,+70.3551,COOL,current_price_mean_30min,current_price_stdev_30min,+4.68767,+89.242
+2001-06-25 14:06:00 PDT,NONE,+900,cooling_setpoint,air_temperature,+70,RAMP,DEADBAND,cooling_demand,hvac_load,total_load,+0,+5,+2,+2,ON,+100,+0.0043699,+70,ON,+4.3699,+70,+69.9981,COOL,current_price_mean_30min,current_price_stdev_30min,+4.68767,+89.242
+2001-06-25 14:07:30 PDT,NONE,+900,cooling_setpoint,air_temperature,+70,RAMP,DEADBAND,cooling_demand,hvac_load,total_load,+0,+5,+2,+2,ON,+100,+0.0043699,+70,ON,+4.3699,+70,+69.7011,COOL,current_price_mean_30min,current_price_stdev_30min,+4.68767,+89.242
+2001-06-25 14:09:00 PDT,NONE,+900,cooling_setpoint,air_temperature,+70,RAMP,DEADBAND,cooling_demand,hvac_load,total_load,+0,+5,+2,+2,ON,+100,+0.0043699,+70,ON,+4.3699,+70,+69.4495,COOL,current_price_mean_30min,current_price_stdev_30min,+4.68767,+89.242
+2001-06-25 14:10:30 PDT,NONE,+900,cooling_setpoint,air_temperature,+70,RAMP,DEADBAND,cooling_demand,hvac_load,total_load,+0,+5,+2,+2,ON,+100,+0.0043699,+70,ON,+4.3699,+70,+69.2324,COOL,current_price_mean_30min,current_price_stdev_30min,+4.68767,+89.242
+2001-06-25 14:12:00 PDT,NONE,+900,cooling_setpoint,air_temperature,+70,RAMP,DEADBAND,cooling_demand,hvac_load,total_load,+0,+5,+2,+2,ON,+100,+0.0043699,+70,ON,+4.3699,+70,+69.0414,COOL,current_price_mean_30min,current_price_stdev_30min,+4.68767,+89.242
+2001-06-25 14:13:30 PDT,NONE,+900,cooling_setpoint,air_temperature,+70,RAMP,DEADBAND,cooling_demand,hvac_load,total_load,+0,+5,+2,+2,ON,+100,+0.0043699,+70,OFF,+4.3699,+70,+69.663,OFF,current_price_mean_30min,current_price_stdev_30min,+0,+89.242

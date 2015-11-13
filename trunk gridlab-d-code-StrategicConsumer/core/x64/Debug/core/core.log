@@ -1,0 +1,129 @@
+﻿Build started 16-Mar-15 4:52:32 PM.
+     1>Project "C:\Users\mafoti\Documents\Visual Studio 2013\Projects\trunk gridlab-d-code\core\core.vcxproj" on node 2 (Build target(s)).
+     1>PreBuildEvent:
+         ..\utilities\configure source=..
+         :VCEnd
+         Current build is 5122 
+         Moving files to proper location
+                 1 file(s) moved.
+                 1 file(s) moved.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"..\VS2005\x64\Debug\core.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\mafoti\Documents\New folder" /LIBPATH:..\VS2005\x64\Debug\ /LIBPATH:..\pthreads pthreadVC2.lib ws2_32.lib pthreadVC2.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\VS2005\x64\Debug\core.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\VS2005\x64\Debug\core.lib" /MACHINE:X64 x64\Debug\core\aggregate.obj
+         x64\Debug\core\class.obj
+         x64\Debug\core\cmdarg.obj
+         x64\Debug\core\compare.obj
+         x64\Debug\core\convert.obj
+         x64\Debug\core\debug.obj
+         x64\Debug\core\deltamode.obj
+         x64\Debug\core\enduse.obj
+         x64\Debug\core\environment.obj
+         x64\Debug\core\exception.obj
+         x64\Debug\core\exec.obj
+         x64\Debug\core\find.obj
+         x64\Debug\core\globals.obj
+         x64\Debug\core\gui.obj
+         x64\Debug\core\http_client.obj
+         x64\Debug\core\index.obj
+         x64\Debug\core\instance.obj
+         x64\Debug\core\instance_cnx.obj
+         x64\Debug\core\instance_slave.obj
+         x64\Debug\core\interpolate.obj
+         x64\Debug\core\job.obj
+         x64\Debug\core\kill.obj
+         x64\Debug\core\kml.obj
+         x64\Debug\core\legal.obj
+         x64\Debug\core\link.obj
+         x64\Debug\core\linkage.obj
+         x64\Debug\core\list.obj
+         x64\Debug\core\load.obj
+         x64\Debug\core\loadshape.obj
+         x64\Debug\core\load_xml.obj
+         x64\Debug\core\load_xml_handle.obj
+         x64\Debug\core\local.obj
+         x64\Debug\core\lock.obj
+         x64\Debug\core\main.obj
+         x64\Debug\core\match.obj
+         x64\Debug\core\matlab.obj
+         x64\Debug\core\module.obj
+         x64\Debug\core\object.obj
+         x64\Debug\core\output.obj
+         x64\Debug\core\property.obj
+         x64\Debug\core\random.obj
+         x64\Debug\core\realtime.obj
+         x64\Debug\core\sanitize.obj
+         x64\Debug\core\save.obj
+         x64\Debug\core\schedule.obj
+         x64\Debug\core\server.obj
+         x64\Debug\core\setup.obj
+         x64\Debug\core\stream.obj
+         x64\Debug\core\test.obj
+         x64\Debug\core\test_framework.obj
+         x64\Debug\core\threadpool.obj
+         x64\Debug\core\timestamp.obj
+         x64\Debug\core\transform.obj
+         x64\Debug\core\ufile.obj
+         x64\Debug\core\unit.obj
+         x64\Debug\core\validate.obj
+     1>server.obj : error LNK2019: unresolved external symbol __imp_pthread_create referenced in function http_response
+     1>test.obj : error LNK2001: unresolved external symbol __imp_pthread_create
+     1>threadpool.obj : error LNK2001: unresolved external symbol __imp_pthread_create
+     1>validate.obj : error LNK2001: unresolved external symbol __imp_pthread_create
+     1>job.obj : error LNK2001: unresolved external symbol __imp_pthread_create
+     1>legal.obj : error LNK2001: unresolved external symbol __imp_pthread_create
+     1>loadshape.obj : error LNK2001: unresolved external symbol __imp_pthread_create
+     1>schedule.obj : error LNK2001: unresolved external symbol __imp_pthread_create
+     1>enduse.obj : error LNK2001: unresolved external symbol __imp_pthread_create
+     1>exec.obj : error LNK2001: unresolved external symbol __imp_pthread_create
+     1>instance.obj : error LNK2001: unresolved external symbol __imp_pthread_create
+     1>instance_slave.obj : error LNK2001: unresolved external symbol __imp_pthread_create
+     1>schedule.obj : error LNK2019: unresolved external symbol __imp_pthread_exit referenced in function schedule_syncall
+     1>enduse.obj : error LNK2001: unresolved external symbol __imp_pthread_exit
+     1>exec.obj : error LNK2001: unresolved external symbol __imp_pthread_exit
+     1>instance_slave.obj : error LNK2001: unresolved external symbol __imp_pthread_exit
+     1>loadshape.obj : error LNK2001: unresolved external symbol __imp_pthread_exit
+     1>loadshape.obj : error LNK2001: unresolved external symbol __imp_pthread_mutex_lock
+     1>schedule.obj : error LNK2019: unresolved external symbol __imp_pthread_mutex_lock referenced in function schedule_syncall
+     1>threadpool.obj : error LNK2001: unresolved external symbol __imp_pthread_mutex_lock
+     1>enduse.obj : error LNK2001: unresolved external symbol __imp_pthread_mutex_lock
+     1>exec.obj : error LNK2001: unresolved external symbol __imp_pthread_mutex_lock
+     1>instance.obj : error LNK2001: unresolved external symbol __imp_pthread_mutex_lock
+     1>instance_slave.obj : error LNK2001: unresolved external symbol __imp_pthread_mutex_lock
+     1>loadshape.obj : error LNK2001: unresolved external symbol __imp_pthread_mutex_unlock
+     1>schedule.obj : error LNK2019: unresolved external symbol __imp_pthread_mutex_unlock referenced in function schedule_syncall
+     1>threadpool.obj : error LNK2001: unresolved external symbol __imp_pthread_mutex_unlock
+     1>enduse.obj : error LNK2001: unresolved external symbol __imp_pthread_mutex_unlock
+     1>exec.obj : error LNK2001: unresolved external symbol __imp_pthread_mutex_unlock
+     1>instance.obj : error LNK2001: unresolved external symbol __imp_pthread_mutex_unlock
+     1>instance_slave.obj : error LNK2001: unresolved external symbol __imp_pthread_mutex_unlock
+     1>loadshape.obj : error LNK2001: unresolved external symbol __imp_pthread_cond_wait
+     1>schedule.obj : error LNK2019: unresolved external symbol __imp_pthread_cond_wait referenced in function schedule_dump
+     1>threadpool.obj : error LNK2001: unresolved external symbol __imp_pthread_cond_wait
+     1>enduse.obj : error LNK2001: unresolved external symbol __imp_pthread_cond_wait
+     1>exec.obj : error LNK2001: unresolved external symbol __imp_pthread_cond_wait
+     1>instance.obj : error LNK2001: unresolved external symbol __imp_pthread_cond_wait
+     1>instance_slave.obj : error LNK2001: unresolved external symbol __imp_pthread_cond_wait
+     1>loadshape.obj : error LNK2001: unresolved external symbol __imp_pthread_cond_broadcast
+     1>schedule.obj : error LNK2019: unresolved external symbol __imp_pthread_cond_broadcast referenced in function schedule_test
+     1>threadpool.obj : error LNK2001: unresolved external symbol __imp_pthread_cond_broadcast
+     1>enduse.obj : error LNK2001: unresolved external symbol __imp_pthread_cond_broadcast
+     1>exec.obj : error LNK2001: unresolved external symbol __imp_pthread_cond_broadcast
+     1>instance.obj : error LNK2001: unresolved external symbol __imp_pthread_cond_broadcast
+     1>instance_slave.obj : error LNK2001: unresolved external symbol __imp_pthread_cond_broadcast
+     1>exec.obj : error LNK2019: unresolved external symbol __imp_pthread_detach referenced in function exec_slave_node
+     1>exec.obj : error LNK2019: unresolved external symbol __imp_pthread_mutex_init referenced in function exec_start
+     1>instance_cnx.obj : error LNK2001: unresolved external symbol __imp_pthread_mutex_init
+     1>instance_slave.obj : error LNK2001: unresolved external symbol __imp_pthread_mutex_init
+     1>exec.obj : error LNK2019: unresolved external symbol __imp_pthread_mutex_destroy referenced in function exec_start
+     1>exec.obj : error LNK2019: unresolved external symbol __imp_pthread_cond_init referenced in function exec_start
+     1>instance_cnx.obj : error LNK2001: unresolved external symbol __imp_pthread_cond_init
+     1>instance_slave.obj : error LNK2001: unresolved external symbol __imp_pthread_cond_init
+     1>exec.obj : error LNK2019: unresolved external symbol __imp_pthread_cond_destroy referenced in function exec_start
+     1>job.obj : error LNK2019: unresolved external symbol __imp_pthread_join referenced in function job
+     1>server.obj : error LNK2001: unresolved external symbol __imp_pthread_join
+     1>validate.obj : error LNK2001: unresolved external symbol __imp_pthread_join
+     1>..\VS2005\x64\Debug\core.exe : fatal error LNK1120: 12 unresolved externals
+     1>Done Building Project "C:\Users\mafoti\Documents\Visual Studio 2013\Projects\trunk gridlab-d-code\core\core.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.42

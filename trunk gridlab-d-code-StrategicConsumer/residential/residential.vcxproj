@@ -1,0 +1,496 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="QuickDebug|Win32">
+      <Configuration>QuickDebug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="QuickDebug|x64">
+      <Configuration>QuickDebug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{603E4678-2160-4D61-99CF-1DB0D1C6196B}</ProjectGuid>
+    <RootNamespace>gridlabd</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='QuickDebug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='QuickDebug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='QuickDebug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='QuickDebug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>12.0.30501.0</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\VS2005\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <ExtensionsToDeleteOnClean>*.obj%3b*.ilk%3b*.tlb%3b*.tli%3b*.tlh%3b*.tmp%3b*.rsp%3b*.pgc%3b*.pgd%3b$(TargetPath)</ExtensionsToDeleteOnClean>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>..\VS2005\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <ExtensionsToDeleteOnClean>*.obj%3b*.ilk%3b*.tlb%3b*.tli%3b*.tlh%3b*.tmp%3b*.rsp%3b*.pgc%3b*.pgd%3b$(TargetPath)</ExtensionsToDeleteOnClean>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\VS2005\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <ExtensionsToDeleteOnClean>*.obj%3b*.ilk%3b*.tlb%3b*.tli%3b*.tlh%3b*.tmp%3b*.rsp%3b*.pgc%3b*.pgd%3b$(TargetPath)</ExtensionsToDeleteOnClean>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>..\VS2005\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <ExtensionsToDeleteOnClean>*.obj%3b*.ilk%3b*.tlb%3b*.tli%3b*.tlh%3b*.tmp%3b*.rsp%3b*.pgc%3b*.pgd%3b$(TargetPath)</ExtensionsToDeleteOnClean>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='QuickDebug|Win32'">
+    <OutDir>..\VS2005\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <ExtensionsToDeleteOnClean>*.obj%3b*.ilk%3b*.tlb%3b*.tli%3b*.tlh%3b*.tmp%3b*.rsp%3b*.pgc%3b*.pgd%3b$(TargetPath)</ExtensionsToDeleteOnClean>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='QuickDebug|x64'">
+    <OutDir>..\VS2005\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <ExtensionsToDeleteOnClean>*.obj%3b*.ilk%3b*.tlb%3b*.tli%3b*.tlh%3b*.tmp%3b*.rsp%3b*.pgc%3b*.pgd%3b$(TargetPath)</ExtensionsToDeleteOnClean>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;_CRT_SECURE_NO_DEPRECATE;_CTR_DEPRECATE_NO_WARNING;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;_CRT_SECURE_NO_DEPRECATE;_NO_CPPUNIT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;_CRT_SECURE_NO_DEPRECATE;_NO_CPPUNIT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='QuickDebug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='QuickDebug|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="appliance.cpp" />
+    <ClCompile Include="clotheswasher.cpp" />
+    <ClCompile Include="dishwasher.cpp" />
+    <ClCompile Include="dryer.cpp" />
+    <ClCompile Include="evcharger.cpp" />
+    <ClCompile Include="evcharger_det.cpp" />
+    <ClCompile Include="freezer.cpp" />
+    <ClCompile Include="house_a.cpp" />
+    <ClCompile Include="house_e.cpp" />
+    <ClCompile Include="init.cpp" />
+    <ClCompile Include="jacuzzi.cpp" />
+    <ClCompile Include="lights.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="microwave.cpp" />
+    <ClCompile Include="occupantload.cpp" />
+    <ClCompile Include="plugload.cpp" />
+    <ClCompile Include="range.cpp" />
+    <ClCompile Include="refrigerator.cpp" />
+    <ClCompile Include="residential_enduse.cpp" />
+    <ClCompile Include="solvers.cpp" />
+    <ClCompile Include="thermal_storage.cpp" />
+    <ClCompile Include="waterheater.cpp" />
+    <ClCompile Include="zipload.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="appliance.h" />
+    <ClInclude Include="clotheswasher.h" />
+    <ClInclude Include="dishwasher.h" />
+    <ClInclude Include="dryer.h" />
+    <ClInclude Include="evcharger.h" />
+    <ClInclude Include="evcharger_det.h" />
+    <ClInclude Include="freezer.h" />
+    <ClInclude Include="house_a.h" />
+    <ClInclude Include="house_e.h" />
+    <ClInclude Include="jacuzzi.h" />
+    <ClInclude Include="lights.h" />
+    <ClInclude Include="microwave.h" />
+    <ClInclude Include="occupantload.h" />
+    <ClInclude Include="plugload.h" />
+    <ClInclude Include="range.h" />
+    <ClInclude Include="refrigerator.h" />
+    <ClInclude Include="residential.h" />
+    <ClInclude Include="residential_enduse.h" />
+    <ClInclude Include="solvers.h" />
+    <ClInclude Include="thermal_storage.h" />
+    <ClInclude Include="waterheater.h" />
+    <ClInclude Include="zipload.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\test\input\residential_1home.glm" />
+    <None Include="..\test\input\residential_5home.glm" />
+    <None Include="..\test\input\residential_meter.glm" />
+    <None Include="autotest\appliance_schedules.glm" />
+    <None Include="autotest\AZ-Phoenix.tmy2" />
+    <None Include="autotest\CA-San_francisco.tmy2" />
+    <None Include="autotest\clotheswasher.glm" />
+    <None Include="autotest\clotheswasher_out.player" />
+    <None Include="autotest\clotheswasher_output.player" />
+    <None Include="autotest\Dishwasher.glm" />
+    <None Include="autotest\dishwasher_output.player" />
+    <None Include="autotest\Dryer.glm" />
+    <None Include="autotest\dryer_output.player" />
+    <None Include="autotest\dr_mode_normal.player" />
+    <None Include="autotest\FL-Miami.tmy2" />
+    <None Include="autotest\generic_demand.glt" />
+    <None Include="autotest\generic_fail_demand(range0-1).glt" />
+    <None Include="autotest\IL-Chicago.tmy2" />
+    <None Include="autotest\lights_power.m" />
+    <None Include="autotest\Olympia.tmy2" />
+    <None Include="autotest\plugload_demand_range_bounds.player" />
+    <None Include="autotest\plugload_enduse_load.player" />
+    <None Include="autotest\plugload_energy_meter.player" />
+    <None Include="autotest\plugload_internal_gains.player" />
+    <None Include="autotest\plugload_internal_gains_hf.player" />
+    <None Include="autotest\Range.glm" />
+    <None Include="autotest\range_output.player" />
+    <None Include="autotest\Refrigerator.glm" />
+    <None Include="autotest\refrigerator_out.player" />
+    <None Include="autotest\setpoint_schedule.glm" />
+    <None Include="autotest\test_appliance.glm" />
+    <None Include="autotest\test_clotheswasher.glm" />
+    <None Include="autotest\test_clotheswasher_explicit_energy_swd.glm" />
+    <None Include="autotest\test_clotheswasher_explicit_energy_swd_opt.glm" />
+    <None Include="autotest\test_clotheswasher_explicit_energy_swy.glm" />
+    <None Include="autotest\test_clotheswasher_explicit_energy_swy_opt.glm" />
+    <None Include="autotest\test_clotheswasher_explicit_energy_wwd.glm" />
+    <None Include="autotest\test_clotheswasher_explicit_energy_wwd_opt.glm" />
+    <None Include="autotest\test_clotheswasher_explicit_energy_wwy.glm" />
+    <None Include="autotest\test_clotheswasher_explicit_energy_wwy_opt.glm" />
+    <None Include="autotest\test_clotheswasher_implicit.glm" />
+    <None Include="autotest\test_dishwasher.glm" />
+    <None Include="autotest\test_dishwasher_explicit_power1.glm" />
+    <None Include="autotest\test_dishwasher_explicit_power1_opt.glm" />
+    <None Include="autotest\test_dishwasher_explicit_power2.glm" />
+    <None Include="autotest\test_dishwasher_explicit_power2_opt.glm" />
+    <None Include="autotest\test_dishwasher_implicit.glm" />
+    <None Include="autotest\test_dryer.glm" />
+    <None Include="autotest\test_dryer_explicit_energy_swd.glm" />
+    <None Include="autotest\test_dryer_explicit_energy_swd_opt.glm" />
+    <None Include="autotest\test_dryer_explicit_energy_swy.glm" />
+    <None Include="autotest\test_dryer_explicit_energy_swy_opt.glm" />
+    <None Include="autotest\test_dryer_explicit_energy_wwd.glm" />
+    <None Include="autotest\test_dryer_explicit_energy_wwd_opt.glm" />
+    <None Include="autotest\test_dryer_explicit_energy_wwy.glm" />
+    <None Include="autotest\test_dryer_explicit_energy_wwy_opt.glm" />
+    <None Include="autotest\test_dryer_implicit.glm" />
+    <None Include="autotest\test_evcharger_det_m1.glm" />
+    <None Include="autotest\test_evcharger_det_m1_default.glm" />
+    <None Include="autotest\test_evcharger_det_m1_minTS.glm" />
+    <None Include="autotest\test_freezer_deadband.glm" />
+    <None Include="autotest\test_freezer_deadband_opt.glm" />
+    <None Include="autotest\test_freezer_implicit.glm" />
+    <None Include="autotest\test_freezer_implicit_opt.glm" />
+    <None Include="autotest\test_generic_limit_demand(range0-1).glt" />
+    <None Include="autotest\test_generic_limit_demand.player" />
+    <None Include="autotest\test_HVAC_balance.glm" />
+    <None Include="autotest\test_HVAC_common_cool.glm" />
+    <None Include="autotest\test_HVAC_common_heat.glm" />
+    <None Include="autotest\test_HVAC_peak_cool.glm" />
+    <None Include="autotest\test_HVAC_peak_heat.glm" />
+    <None Include="autotest\test_lights_exp.glm" />
+    <None Include="autotest\test_lights_explicit_power1.glm" />
+    <None Include="autotest\test_lights_explicit_power1.player" />
+    <None Include="autotest\test_lights_explicit_power2.glm" />
+    <None Include="autotest\test_lights_explicit_power2.player" />
+    <None Include="autotest\test_lights_explicit_power3.glm" />
+    <None Include="autotest\test_lights_explicit_power3.player" />
+    <None Include="autotest\test_lights_explicit_power4.glm" />
+    <None Include="autotest\test_lights_explicit_power4.player" />
+    <None Include="autotest\test_lights_imp.glm" />
+    <None Include="autotest\test_lights_implicit.glm" />
+    <None Include="autotest\test_lights_implicit_power1.glm" />
+    <None Include="autotest\test_lights_implicit_power2.glm" />
+    <None Include="autotest\test_lights_implicit_power3.glm" />
+    <None Include="autotest\test_lights_implicit_power4.glm" />
+    <None Include="autotest\test_lights_standalone.glm" />
+    <None Include="autotest\test_microwave_cycle_length_limits_err.glm" />
+    <None Include="autotest\test_microwave_demand_limits.glm" />
+    <None Include="autotest\test_microwave_demand_limits_opt.glm" />
+    <None Include="autotest\test_microwave_energy.glm" />
+    <None Include="autotest\test_microwave_energy.glt" />
+    <None Include="autotest\test_microwave_energy.m" />
+    <None Include="autotest\test_microwave_energy.player" />
+    <None Include="autotest\test_microwave_energy_accumulation.glm" />
+    <None Include="autotest\test_microwave_energy_accumulation.m" />
+    <None Include="autotest\test_microwave_energy_accumulation.player" />
+    <None Include="autotest\test_microwave_energy_opt.glm" />
+    <None Include="autotest\test_microwave_explicit_swd.glm" />
+    <None Include="autotest\test_microwave_explicit_swd_opt.glm" />
+    <None Include="autotest\test_microwave_explicit_swy.glm" />
+    <None Include="autotest\test_microwave_explicit_swy_opt.glm" />
+    <None Include="autotest\test_microwave_explicit_wwd.glm" />
+    <None Include="autotest\test_microwave_explicit_wwd_opt.glm" />
+    <None Include="autotest\test_microwave_explicit_wwy.glm" />
+    <None Include="autotest\test_microwave_explicit_wwy_opt.glm" />
+    <None Include="autotest\test_microwave_implicit.glm" />
+    <None Include="autotest\test_microwave_implicit_swd.glm" />
+    <None Include="autotest\test_microwave_implicit_swd_opt.glm" />
+    <None Include="autotest\test_microwave_implicit_swy.glm" />
+    <None Include="autotest\test_microwave_implicit_swy_opt.glm" />
+    <None Include="autotest\test_microwave_implicit_wwd.glm" />
+    <None Include="autotest\test_microwave_implicit_wwd_opt.glm" />
+    <None Include="autotest\test_microwave_implicit_wwy.glm" />
+    <None Include="autotest\test_microwave_implicit_wwy_opt.glm" />
+    <None Include="autotest\test_microwave_internal_gains.glm" />
+    <None Include="autotest\test_microwave_internal_gains_0.player" />
+    <None Include="autotest\test_microwave_internal_gains_1.player" />
+    <None Include="autotest\test_microwave_internal_gains_opt.glm" />
+    <None Include="autotest\test_microwave_standby_power_limits.glm" />
+    <None Include="autotest\test_microwave_standby_power_limits.player" />
+    <None Include="autotest\test_microwave_standby_power_limits_opt.glm" />
+    <None Include="autotest\test_occupantload_enduse_load0.glm" />
+    <None Include="autotest\test_plugload_demand_range_bounds.glm" />
+    <None Include="autotest\test_plugload_demand_range_bounds_opt.glm" />
+    <None Include="autotest\test_plugload_enduse_load.glm" />
+    <None Include="autotest\test_plugload_enduse_load_swd.player" />
+    <None Include="autotest\test_plugload_enduse_load_swy.player" />
+    <None Include="autotest\test_plugload_enduse_load_wwy.player" />
+    <None Include="autotest\test_plugload_energy_meter.glm" />
+    <None Include="autotest\test_plugload_energy_meter_opt.glm" />
+    <None Include="autotest\test_plugload_energy_swd.player" />
+    <None Include="autotest\test_plugload_energy_swy.player" />
+    <None Include="autotest\test_plugload_energy_wwd.player" />
+    <None Include="autotest\test_plugload_energy_wwy.player" />
+    <None Include="autotest\test_plugload_explicit_swd.glm" />
+    <None Include="autotest\test_plugload_explicit_swy.glm" />
+    <None Include="autotest\test_plugload_explicit_wwd.glm" />
+    <None Include="autotest\test_plugload_explicit_wwd_opt.glm" />
+    <None Include="autotest\test_plugload_explicit_wwy.glm" />
+    <None Include="autotest\test_plugload_heatgain_swd.player" />
+    <None Include="autotest\test_plugload_heatgain_swy.player" />
+    <None Include="autotest\test_plugload_heatgain_wwd.player" />
+    <None Include="autotest\test_plugload_heatgain_wwy.player" />
+    <None Include="autotest\test_plugload_implicit_swd.glm" />
+    <None Include="autotest\test_plugload_implicit_swd_opt.glm" />
+    <None Include="autotest\test_plugload_implicit_swy.glm" />
+    <None Include="autotest\test_plugload_implicit_swy_opt.glm" />
+    <None Include="autotest\test_plugload_implicit_wwd.glm" />
+    <None Include="autotest\test_plugload_implicit_wwd_opt.glm" />
+    <None Include="autotest\test_plugload_implicit_wwy.glm" />
+    <None Include="autotest\test_plugload_implicit_wwy_opt.glm" />
+    <None Include="autotest\test_plugload_internal_gains.glm" />
+    <None Include="autotest\test_plugload_internal_gains_hf.glm" />
+    <None Include="autotest\test_plugload_internal_gains_opt.glm" />
+    <None Include="autotest\test_range.glm" />
+    <None Include="autotest\test_range_explicit_energy1.glm" />
+    <None Include="autotest\test_range_explicit_energy1_opt.glm" />
+    <None Include="autotest\test_range_explicit_energy2.glm" />
+    <None Include="autotest\test_range_explicit_energy2_opt.glm" />
+    <None Include="autotest\test_range_explicit_energy3.glm" />
+    <None Include="autotest\test_range_explicit_energy3_opt.glm" />
+    <None Include="autotest\test_range_explicit_energy4.glm" />
+    <None Include="autotest\test_range_explicit_energy4_opt.glm" />
+    <None Include="autotest\test_range_implicit.glm" />
+    <None Include="autotest\test_range_implicit_opt.glm" />
+    <None Include="autotest\test_range_power.glm" />
+    <None Include="autotest\test_range_power.player" />
+    <None Include="autotest\test_range_power_opt.glm" />
+    <None Include="autotest\test_Refrigerator.glm" />
+    <None Include="autotest\test_refrigerator_implicit.glm" />
+    <None Include="autotest\test_residentialenduse_standalone.glm" />
+    <None Include="autotest\test_residential_exercise_5_2_1.glm" />
+    <None Include="autotest\test_solargains.glm" />
+    <None Include="autotest\test_thermal_storage_autotest.glm" />
+    <None Include="autotest\test_thermal_storage_energy.player" />
+    <None Include="autotest\test_thermal_storage_SOC.player" />
+    <None Include="autotest\test_waterheater_implicit.glm" />
+    <None Include="autotest\test_waterheater_standalone.glm" />
+    <None Include="autotest\test_zipload_pow_en_hg.glm" />
+    <None Include="autotest\TN-Nashville.tmy2" />
+    <None Include="autotest\WA-Yakima.tmy2" />
+    <None Include="autotest\waterheater_demand_waveform_sawtooth1.player" />
+    <None Include="autotest\waterheater_demand_waveform_sawtooth2.player" />
+    <None Include="autotest\waterheater_demand_waveform_sine.player" />
+    <None Include="autotest\waterheater_demand_waveform_square.player" />
+    <None Include="autotest\water_schedule.glm" />
+    <None Include="Makefile.am" />
+    <None Include="test\evcharger.glm" />
+    <None Include="test\evcharger_demand_profile.csv" />
+    <None Include="test\residential_implicit_all.glm" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

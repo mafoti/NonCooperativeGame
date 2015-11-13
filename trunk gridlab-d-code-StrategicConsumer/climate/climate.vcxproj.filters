@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Tests">
+      <UniqueIdentifier>{4e00da7c-f676-4444-90fd-a7ff53b4d0fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\CSV">
+      <UniqueIdentifier>{a3b269d4-d0d5-4df8-b915-80a2fdff325c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\Forecasting">
+      <UniqueIdentifier>{c66b7462-a27b-486b-92fa-930e990d13ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\Autotest">
+      <UniqueIdentifier>{86e41396-1f57-4625-a2bb-60d67dae3e2b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="climate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csv_reader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="init.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="solar_angles.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="weather.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="weather_reader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="climate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csv_reader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="solar_angles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="weather.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="weather_reader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="test\csv_rdr\Thermal1.glm">
+      <Filter>Tests\CSV</Filter>
+    </None>
+    <None Include="test\csv_rdr\weather.csv">
+      <Filter>Tests\CSV</Filter>
+    </None>
+    <None Include="test\forecasting\test_forecasting.glm">
+      <Filter>Tests\Forecasting</Filter>
+    </None>
+    <None Include="test\forecasting\WA-Yakima.glm">
+      <Filter>Tests\Forecasting</Filter>
+    </None>
+    <None Include="test\forecasting\WA-Yakima.tmy2">
+      <Filter>Tests\Forecasting</Filter>
+    </None>
+    <None Include="autotest\test_csvreader_exercise_5_1_2.glm">
+      <Filter>Tests\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_solar.glm">
+      <Filter>Tests\Autotest</Filter>
+    </None>
+    <None Include="autotest\WA-Yakima.glm">
+      <Filter>Tests\Autotest</Filter>
+    </None>
+    <None Include="autotest\WA-Yakima.tmy2">
+      <Filter>Tests\Autotest</Filter>
+    </None>
+    <None Include="autotest\weather.csv">
+      <Filter>Tests\Autotest</Filter>
+    </None>
+  </ItemGroup>
+</Project>

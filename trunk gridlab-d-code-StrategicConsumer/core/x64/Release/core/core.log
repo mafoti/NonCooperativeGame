@@ -1,0 +1,498 @@
+﻿Build started 16-Mar-15 4:49:51 PM.
+     1>Project "C:\Users\mafoti\Documents\Visual Studio 2013\Projects\trunk gridlab-d-code\core\core.vcxproj" on node 2 (Build target(s)).
+     1>PreBuildEvent:
+         ..\utilities\configure source=..
+         :VCEnd
+         Current build is 5122 
+         Moving files to proper location
+                 1 file(s) moved.
+                 1 file(s) moved.
+       CustomBuild:
+         Copying runtime file.
+                 1 file(s) copied.
+         Copying runtime file
+                 1 file(s) copied.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"..\third_party\cppunit-1.12.0\include" /I"..\third_party\xerces-c-3.1.1\src" /I..\pthreads /Zi /nologo /W3 /WX- /Od /Ob2 /Ot /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _CRT_SECURE_NO_DEPRECATE /D _NO_CPPUNIT /D _MBCS /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\core\\" /Fd"x64\Release\core\vc120.pdb" /Gd /TC /wd4996 /errorReport:prompt aggregate.c class.c cmdarg.c compare.c debug.c deltamode.c enduse.c environment.c exception.c exec.c find.c globals.c gui.c http_client.c index.c instance.c instance_cnx.c instance_slave.c interpolate.c kill.c kml.c legal.c linkage.c list.c load.c loadshape.c local.c main.c match.c matlab.c module.c object.c output.c property.c random.c realtime.c save.c schedule.c server.c test.c threadpool.c timestamp.c transform.c ufile.c unit.c
+         aggregate.c
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46): warning C4005: 'INFINITY' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(102) : see previous definition of 'INFINITY'
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(47): warning C4005: 'isnan' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(289) : see previous definition of 'isnan'
+         class.c
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(102): warning C4005: 'INFINITY' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46) : see previous definition of 'INFINITY'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(287): warning C4005: 'isfinite' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(59) : see previous definition of 'isfinite'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(289): warning C4005: 'isnan' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(47) : see previous definition of 'isnan'
+     1>class.c(1220): warning C4090: 'function' : different 'const' qualifiers
+     1>class.c(1220): warning C4028: formal parameter 2 different from declaration
+         cmdarg.c
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(102): warning C4005: 'INFINITY' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46) : see previous definition of 'INFINITY'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(287): warning C4005: 'isfinite' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(59) : see previous definition of 'isfinite'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(289): warning C4005: 'isnan' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(47) : see previous definition of 'isnan'
+     1>cmdarg.c(1166): warning C4013: 'chdir' undefined; assuming extern returning int
+     1>cmdarg.c(1171): warning C4013: 'getcwd' undefined; assuming extern returning int
+     1>cmdarg.c(1280): warning C4047: 'function' : 'char **' differs in levels of indirection from 'char (*)[1024]'
+     1>cmdarg.c(1280): warning C4024: 'function through pointer' : different types for formal and actual parameter 2
+         compare.c
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46): warning C4005: 'INFINITY' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(102) : see previous definition of 'INFINITY'
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(47): warning C4005: 'isnan' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(289) : see previous definition of 'isnan'
+         debug.c
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(102): warning C4005: 'INFINITY' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46) : see previous definition of 'INFINITY'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(287): warning C4005: 'isfinite' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(59) : see previous definition of 'isfinite'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(289): warning C4005: 'isnan' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(47) : see previous definition of 'isnan'
+         deltamode.c
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(102): warning C4005: 'INFINITY' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46) : see previous definition of 'INFINITY'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(287): warning C4005: 'isfinite' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(59) : see previous definition of 'isfinite'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(289): warning C4005: 'isnan' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(47) : see previous definition of 'isnan'
+         enduse.c
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46): warning C4005: 'INFINITY' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(102) : see previous definition of 'INFINITY'
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(47): warning C4005: 'isnan' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(289) : see previous definition of 'isnan'
+     1>enduse.c(268): warning C4013: 'exec_clock' undefined; assuming extern returning int
+     1>enduse.c(448): warning C4047: 'initializing' : 'char *' differs in levels of indirection from 'set'
+     1>enduse.c(552): warning C4133: 'initializing' : incompatible types - from 'char [4]' to 'UNIT *'
+     1>enduse.c(552): warning C4047: 'initializing' : 'PROPERTYADDR' differs in levels of indirection from '__int64'
+     1>enduse.c(553): warning C4047: 'function' : 'PROPERTY *' differs in levels of indirection from 'PROPERTY (*)[3]'
+     1>enduse.c(553): warning C4024: 'convert_to_struct' : different types for formal and actual parameter 3
+         environment.c
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(102): warning C4005: 'INFINITY' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46) : see previous definition of 'INFINITY'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(287): warning C4005: 'isfinite' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(59) : see previous definition of 'isfinite'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(289): warning C4005: 'isnan' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(47) : see previous definition of 'isnan'
+         exception.c
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(102): warning C4005: 'INFINITY' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46) : see previous definition of 'INFINITY'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(287): warning C4005: 'isfinite' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(59) : see previous definition of 'isfinite'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(289): warning C4005: 'isnan' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(47) : see previous definition of 'isnan'
+         exec.c
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(102): warning C4005: 'INFINITY' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46) : see previous definition of 'INFINITY'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(287): warning C4005: 'isfinite' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(59) : see previous definition of 'isfinite'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(289): warning C4005: 'isnan' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(47) : see previous definition of 'isnan'
+     1>exec.c(1652): warning C4013: 'exec_run_createscripts' undefined; assuming extern returning int
+     1>exec.c(1845): warning C4244: '=' : conversion from '__int64' to 'clock_t', possible loss of data
+     1>exec.c(2216): warning C4013: 'saveall' undefined; assuming extern returning int
+     1>exec.c(2311): warning C4244: '=' : conversion from '__int64' to 'clock_t', possible loss of data
+         find.c
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(102): warning C4005: 'INFINITY' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46) : see previous definition of 'INFINITY'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(287): warning C4005: 'isfinite' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(59) : see previous definition of 'isfinite'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(289): warning C4005: 'isnan' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(47) : see previous definition of 'isnan'
+     1>find.c(1338): warning C4013: 'access' undefined; assuming extern returning int
+         globals.c
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(102): warning C4005: 'INFINITY' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46) : see previous definition of 'INFINITY'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(287): warning C4005: 'isfinite' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(59) : see previous definition of 'isfinite'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(289): warning C4005: 'isnan' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(47) : see previous definition of 'isnan'
+         gui.c
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46): warning C4005: 'INFINITY' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(102) : see previous definition of 'INFINITY'
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(47): warning C4005: 'isnan' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(289) : see previous definition of 'isnan'
+         http_client.c
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(102): warning C4005: 'INFINITY' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46) : see previous definition of 'INFINITY'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(287): warning C4005: 'isfinite' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(59) : see previous definition of 'isfinite'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(289): warning C4005: 'isnan' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(47) : see previous definition of 'isnan'
+     1>http_client.c(96): warning C4267: 'function' : conversion from 'size_t' to 'int', possible loss of data
+     1>http_client.c(213): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>http_client.c(234): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>http_client.c(206): warning C4101: 'dlen' : unreferenced local variable
+         index.c
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(102): warning C4005: 'INFINITY' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46) : see previous definition of 'INFINITY'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(287): warning C4005: 'isfinite' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(59) : see previous definition of 'isfinite'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(289): warning C4005: 'isnan' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(47) : see previous definition of 'isnan'
+         instance.c
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46): warning C4005: 'INFINITY' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(102) : see previous definition of 'INFINITY'
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(47): warning C4005: 'isnan' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(289) : see previous definition of 'isnan'
+     1>instance.c(749): warning C4244: 'initializing' : conversion from '__int64' to 'clock_t', possible loss of data
+     1>instance.c(787): warning C4244: '+=' : conversion from '__int64' to 'clock_t', possible loss of data
+         instance_cnx.c
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46): warning C4005: 'INFINITY' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(102) : see previous definition of 'INFINITY'
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(47): warning C4005: 'isnan' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(289) : see previous definition of 'isnan'
+         instance_slave.c
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46): warning C4005: 'INFINITY' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(102) : see previous definition of 'INFINITY'
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(47): warning C4005: 'isnan' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(289) : see previous definition of 'isnan'
+     1>instance_slave.c(273): warning C4133: 'function' : incompatible types - from 'MESSAGE *' to 'unsigned char *'
+     1>instance_slave.c(488): warning C4047: 'function' : 'sync_data *' differs in levels of indirection from 'MESSAGE **'
+     1>instance_slave.c(488): warning C4024: 'exec_sync_merge' : different types for formal and actual parameter 2
+     1>instance_slave.c(516): warning C4047: 'function' : 'sync_data *' differs in levels of indirection from 'MESSAGE **'
+     1>instance_slave.c(516): warning C4024: 'exec_sync_reset' : different types for formal and actual parameter 1
+     1>instance_slave.c(517): warning C4047: 'function' : 'sync_data *' differs in levels of indirection from 'MESSAGE **'
+     1>instance_slave.c(517): warning C4024: 'exec_sync_set' : different types for formal and actual parameter 1
+     1>instance_slave.c(517): warning C4047: 'function' : 'TIMESTAMP' differs in levels of indirection from 'void *'
+     1>instance_slave.c(517): warning C4024: 'exec_sync_set' : different types for formal and actual parameter 2
+     1>instance_slave.c(583): warning C4047: 'function' : 'sync_data *' differs in levels of indirection from 'MESSAGE **'
+     1>instance_slave.c(583): warning C4024: 'exec_sync_merge' : different types for formal and actual parameter 2
+     1>instance_slave.c(723): warning C4047: 'function' : 'sync_data *' differs in levels of indirection from 'MESSAGE **'
+     1>instance_slave.c(723): warning C4024: 'exec_sync_set' : different types for formal and actual parameter 1
+     1>instance_slave.c(724): warning C4047: 'function' : 'sync_data *' differs in levels of indirection from 'MESSAGE **'
+     1>instance_slave.c(724): warning C4024: 'exec_sync_merge' : different types for formal and actual parameter 2
+         interpolate.c
+         kill.c
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(102): warning C4005: 'INFINITY' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46) : see previous definition of 'INFINITY'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(287): warning C4005: 'isfinite' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(59) : see previous definition of 'isfinite'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(289): warning C4005: 'isnan' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(47) : see previous definition of 'isnan'
+         Compiling...
+         kml.c
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(102): warning C4005: 'INFINITY' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46) : see previous definition of 'INFINITY'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(287): warning C4005: 'isfinite' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(59) : see previous definition of 'isfinite'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(289): warning C4005: 'isnan' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(47) : see previous definition of 'isnan'
+         legal.c
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(102): warning C4005: 'INFINITY' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46) : see previous definition of 'INFINITY'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(287): warning C4005: 'isfinite' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(59) : see previous definition of 'isfinite'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(289): warning C4005: 'isnan' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(47) : see previous definition of 'isnan'
+     1>legal.c(196): warning C4047: 'function' : 'const char *' differs in levels of indirection from 'int'
+     1>legal.c(196): warning C4024: 'atoi' : different types for formal and actual parameter 1
+         linkage.c
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(102): warning C4005: 'INFINITY' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46) : see previous definition of 'INFINITY'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(287): warning C4005: 'isfinite' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(59) : see previous definition of 'isfinite'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(289): warning C4005: 'isnan' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(47) : see previous definition of 'isnan'
+         list.c
+         load.c
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46): warning C4005: 'INFINITY' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(102) : see previous definition of 'INFINITY'
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(47): warning C4005: 'isnan' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(289) : see previous definition of 'isnan'
+     1>load.c(5188): warning C4013: 'link_create' undefined; assuming extern returning int
+     1>load.c(5212): warning C4013: 'exec_add_createscript' undefined; assuming extern returning int
+     1>load.c(5229): warning C4013: 'exec_add_initscript' undefined; assuming extern returning int
+     1>load.c(5246): warning C4013: 'exec_add_syncscript' undefined; assuming extern returning int
+     1>load.c(5263): warning C4013: 'exec_add_termscript' undefined; assuming extern returning int
+     1>load.c(5280): warning C4013: 'exec_add_scriptexport' undefined; assuming extern returning int
+         loadshape.c
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(102): warning C4005: 'INFINITY' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46) : see previous definition of 'INFINITY'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(287): warning C4005: 'isfinite' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(59) : see previous definition of 'isfinite'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(289): warning C4005: 'isnan' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(47) : see previous definition of 'isnan'
+     1>loadshape.c(940): warning C4013: 'exec_clock' undefined; assuming extern returning int
+         local.c
+         main.c
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(102): warning C4005: 'INFINITY' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46) : see previous definition of 'INFINITY'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(287): warning C4005: 'isfinite' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(59) : see previous definition of 'isfinite'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(289): warning C4005: 'isnan' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(47) : see previous definition of 'isnan'
+     1>main.c(108): warning C4013: 'processor_count' undefined; assuming extern returning int
+         match.c
+         matlab.c
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(102): warning C4005: 'INFINITY' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46) : see previous definition of 'INFINITY'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(287): warning C4005: 'isfinite' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(59) : see previous definition of 'isfinite'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(289): warning C4005: 'isnan' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(47) : see previous definition of 'isnan'
+         module.c
+     1>module.c(36): warning C4005: '_WIN32_WINNT' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\shared\sdkddkver.h(200) : see previous definition of '_WIN32_WINNT'
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46): warning C4005: 'INFINITY' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(102) : see previous definition of 'INFINITY'
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(47): warning C4005: 'isnan' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(289) : see previous definition of 'isnan'
+     1>module.c(223): warning C4028: formal parameter 3 different from declaration
+     1>module.c(457): warning C4028: formal parameter 1 different from declaration
+     1>module.c(460): warning C4113: 'size_t (__cdecl *)(FILE *,int)' differs in parameter lists from 'STREAMCALLBACK'
+     1>module.c(528): warning C4113: 'STREAMCALLBACK' differs in parameter lists from 'STREAMCALL'
+     1>module.c(1490): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>module.c(1499): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>module.c(1552): warning C4244: '=' : conversion from 'time_t' to 'int', possible loss of data
+     1>module.c(1553): warning C4244: '=' : conversion from 'time_t' to 'int', possible loss of data
+     1>module.c(1579): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>module.c(1597): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>module.c(1619): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>module.c(1630): warning C4101: 'i' : unreferenced local variable
+     1>module.c(1677): warning C4018: '<' : signed/unsigned mismatch
+     1>module.c(1963): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+         object.c
+     1>object.c(34): warning C4005: 'isnan' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(289) : see previous definition of 'isnan'
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46): warning C4005: 'INFINITY' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(102) : see previous definition of 'INFINITY'
+     1>object.c(294): warning C4013: 'processor_count' undefined; assuming extern returning int
+     1>object.c(1327): warning C4013: 'exec_clock' undefined; assuming extern returning int
+         output.c
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(102): warning C4005: 'INFINITY' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46) : see previous definition of 'INFINITY'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(287): warning C4005: 'isfinite' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(59) : see previous definition of 'isfinite'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(289): warning C4005: 'isnan' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(47) : see previous definition of 'isnan'
+         property.c
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46): warning C4005: 'INFINITY' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(102) : see previous definition of 'INFINITY'
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(47): warning C4005: 'isnan' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(289) : see previous definition of 'isnan'
+     1>property.c(55): warning C4113: 'size_t (__cdecl *)(void *,size_t,PROPERTY *)' differs in parameter lists from 'size_t (__cdecl *)(FILE *,int,void *,PROPERTY *)'
+     1>property.c(55): warning C4090: 'function' : different 'const' qualifiers
+     1>property.c(55): warning C4028: formal parameter 1 different from declaration
+     1>property.c(293): warning C4101: 'n' : unreferenced local variable
+     1>property.c(342): warning C4101: 'n' : unreferenced local variable
+         random.c
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46): warning C4005: 'INFINITY' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(102) : see previous definition of 'INFINITY'
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(47): warning C4005: 'isnan' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(289) : see previous definition of 'isnan'
+     1>random.c(42): warning C4013: '_getpid' undefined; assuming extern returning int
+     1>random.c(1273): warning C4013: 'exec_clock' undefined; assuming extern returning int
+         realtime.c
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(102): warning C4005: 'INFINITY' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46) : see previous definition of 'INFINITY'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(287): warning C4005: 'isfinite' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(59) : see previous definition of 'isfinite'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(289): warning C4005: 'isnan' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(47) : see previous definition of 'isnan'
+         save.c
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(102): warning C4005: 'INFINITY' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46) : see previous definition of 'INFINITY'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(287): warning C4005: 'isfinite' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(59) : see previous definition of 'isfinite'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(289): warning C4005: 'isnan' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(47) : see previous definition of 'isnan'
+         schedule.c
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46): warning C4005: 'INFINITY' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(102) : see previous definition of 'INFINITY'
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(47): warning C4005: 'isnan' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(289) : see previous definition of 'isnan'
+     1>schedule.c(1130): warning C4013: 'exec_clock' undefined; assuming extern returning int
+         server.c
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(102): warning C4005: 'INFINITY' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46) : see previous definition of 'INFINITY'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(287): warning C4005: 'isfinite' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(59) : see previous definition of 'isfinite'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(289): warning C4005: 'isnan' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(47) : see previous definition of 'isnan'
+         test.c
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(102): warning C4005: 'INFINITY' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46) : see previous definition of 'INFINITY'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(287): warning C4005: 'isfinite' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(59) : see previous definition of 'isfinite'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(289): warning C4005: 'isnan' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(47) : see previous definition of 'isnan'
+         Compiling...
+         threadpool.c
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(102): warning C4005: 'INFINITY' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46) : see previous definition of 'INFINITY'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(287): warning C4005: 'isfinite' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(59) : see previous definition of 'isfinite'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(289): warning C4005: 'isnan' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(47) : see previous definition of 'isnan'
+     1>threadpool.c(191): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>threadpool.c(195): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>threadpool.c(215): warning C4013: 'output_error' undefined; assuming extern returning int
+     1>threadpool.c(223): warning C4018: '<' : signed/unsigned mismatch
+     1>threadpool.c(253): warning C4013: 'exec_clock' undefined; assuming extern returning int
+         timestamp.c
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46): warning C4005: 'INFINITY' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(102) : see previous definition of 'INFINITY'
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(47): warning C4005: 'isnan' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(289) : see previous definition of 'isnan'
+     1>timestamp.c(202): warning C4244: 'return' : conversion from 'TIMESTAMP' to 'int', possible loss of data
+     1>timestamp.c(325): warning C4244: '=' : conversion from 'TIMESTAMP' to 'int', possible loss of data
+     1>timestamp.c(383): warning C4244: '+=' : conversion from 'double' to 'TIMESTAMP', possible loss of data
+     1>timestamp.c(1074): warning C4090: 'initializing' : different 'const' qualifiers
+     1>timestamp.c(1188): warning C4090: '=' : different 'const' qualifiers
+         transform.c
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46): warning C4005: 'INFINITY' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(102) : see previous definition of 'INFINITY'
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(47): warning C4005: 'isnan' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(289) : see previous definition of 'isnan'
+     1>transform.c(199): warning C4101: 'buffer' : unreferenced local variable
+     1>transform.c(233): warning C4013: 'exec_clock' undefined; assuming extern returning int
+         ufile.c
+     1>ufile.c(16): warning C4013: 'hopen' undefined; assuming extern returning int
+     1>ufile.c(16): warning C4047: 'initializing' : 'HTTP *' differs in levels of indirection from 'int'
+     1>ufile.c(21): warning C4013: 'hclose' undefined; assuming extern returning int
+     1>ufile.c(48): warning C4013: 'hread' undefined; assuming extern returning int
+         unit.c
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46): warning C4005: 'INFINITY' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(102) : see previous definition of 'INFINITY'
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(47): warning C4005: 'isnan' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(289) : see previous definition of 'isnan'
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"..\third_party\cppunit-1.12.0\include" /I"..\third_party\xerces-c-3.1.1\src" /I..\pthreads /Zi /nologo /W3 /WX- /Od /Ob2 /Ot /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _CRT_SECURE_NO_DEPRECATE /D _NO_CPPUNIT /D _MBCS /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\core\\" /Fd"x64\Release\core\vc120.pdb" /Gd /TP /wd4996 /errorReport:prompt convert.cpp job.cpp link.cpp load_xml.cpp load_xml_handle.cpp lock.cpp sanitize.cpp setup.cpp stream.cpp test_framework.cpp validate.cpp
+         convert.cpp
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46): warning C4005: 'INFINITY' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(102) : see previous definition of 'INFINITY'
+     1>convert.cpp(1171): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>convert.cpp(1171): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>convert.cpp(1176): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>convert.cpp(1193): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>convert.cpp(1195): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>convert.cpp(1195): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>convert.cpp(1207): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>convert.cpp(1207): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>convert.cpp(1209): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>convert.cpp(1209): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+         job.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(102): warning C4005: 'INFINITY' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46) : see previous definition of 'INFINITY'
+     1>job.cpp(348): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>job.cpp(359): warning C4018: '<' : signed/unsigned mismatch
+     1>job.cpp(363): warning C4018: '<' : signed/unsigned mismatch
+         link.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(102): warning C4005: 'INFINITY' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46) : see previous definition of 'INFINITY'
+         load_xml.cpp
+         load_xml_handle.cpp
+         lock.cpp
+         sanitize.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(102): warning C4005: 'INFINITY' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46) : see previous definition of 'INFINITY'
+         setup.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(102): warning C4005: 'INFINITY' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46) : see previous definition of 'INFINITY'
+     1>setup.cpp(33): warning C4018: '<' : signed/unsigned mismatch
+     1>setup.cpp(71): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>setup.cpp(79): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>setup.cpp(223): warning C4267: '+=' : conversion from 'size_t' to 'int', possible loss of data
+         stream.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(102): warning C4005: 'INFINITY' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46) : see previous definition of 'INFINITY'
+     1>stream.cpp(25): warning C4297: 'stream_register' : function assumed not to throw an exception but does
+                 The function is extern "C" and /EHc was specified
+     1>stream.cpp(35): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+         test_framework.cpp
+         validate.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(102): warning C4005: 'INFINITY' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46) : see previous definition of 'INFINITY'
+     1>validate.cpp(791): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"..\VS2005\x64\Release\core.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\mafoti\Documents\New folder" /LIBPATH:..\VS2005\x64\Release\ /LIBPATH:..\pthreads pthreadVC2.lib ws2_32.lib pthreadVC2.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"..\VS2005\x64\Release\core.pdb" /MAP /MAPINFO:EXPORTS /ASSEMBLYDEBUG /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\VS2005\x64\Release\core.lib" /MACHINE:X64 x64\Release\core\aggregate.obj
+         x64\Release\core\class.obj
+         x64\Release\core\cmdarg.obj
+         x64\Release\core\compare.obj
+         x64\Release\core\convert.obj
+         x64\Release\core\debug.obj
+         x64\Release\core\deltamode.obj
+         x64\Release\core\enduse.obj
+         x64\Release\core\environment.obj
+         x64\Release\core\exception.obj
+         x64\Release\core\exec.obj
+         x64\Release\core\find.obj
+         x64\Release\core\globals.obj
+         x64\Release\core\gui.obj
+         x64\Release\core\http_client.obj
+         x64\Release\core\index.obj
+         x64\Release\core\instance.obj
+         x64\Release\core\instance_cnx.obj
+         x64\Release\core\instance_slave.obj
+         x64\Release\core\interpolate.obj
+         x64\Release\core\job.obj
+         x64\Release\core\kill.obj
+         x64\Release\core\kml.obj
+         x64\Release\core\legal.obj
+         x64\Release\core\link.obj
+         x64\Release\core\linkage.obj
+         x64\Release\core\list.obj
+         x64\Release\core\load.obj
+         x64\Release\core\loadshape.obj
+         x64\Release\core\load_xml.obj
+         x64\Release\core\load_xml_handle.obj
+         x64\Release\core\local.obj
+         x64\Release\core\lock.obj
+         x64\Release\core\main.obj
+         x64\Release\core\match.obj
+         x64\Release\core\matlab.obj
+         x64\Release\core\module.obj
+         x64\Release\core\object.obj
+         x64\Release\core\output.obj
+         x64\Release\core\property.obj
+         x64\Release\core\random.obj
+         x64\Release\core\realtime.obj
+         x64\Release\core\sanitize.obj
+         x64\Release\core\save.obj
+         x64\Release\core\schedule.obj
+         x64\Release\core\server.obj
+         x64\Release\core\setup.obj
+         x64\Release\core\stream.obj
+         x64\Release\core\test.obj
+         x64\Release\core\test_framework.obj
+         x64\Release\core\threadpool.obj
+         x64\Release\core\timestamp.obj
+         x64\Release\core\transform.obj
+         x64\Release\core\ufile.obj
+         x64\Release\core\unit.obj
+         x64\Release\core\validate.obj
+     1>LINK : warning C4742: 'rlock_spin' has different alignment in 'C:\Users\mafoti\Documents\Visual Studio 2013\Projects\trunk gridlab-d-code\core\lock.cpp' and 'C:\Users\mafoti\Documents\Visual Studio 2013\Projects\trunk gridlab-d-code\core\exec.c': 4 and 8
+     1>LINK : warning C4743: 'rlock_spin' has different size in 'C:\Users\mafoti\Documents\Visual Studio 2013\Projects\trunk gridlab-d-code\core\lock.cpp' and 'C:\Users\mafoti\Documents\Visual Studio 2013\Projects\trunk gridlab-d-code\core\exec.c': 4 and 8 bytes
+     1>LINK : warning C4744: 'rlock_spin' has different type in 'C:\Users\mafoti\Documents\Visual Studio 2013\Projects\trunk gridlab-d-code\core\lock.cpp' and 'C:\Users\mafoti\Documents\Visual Studio 2013\Projects\trunk gridlab-d-code\core\exec.c': 'unsigned int' and '__int64'
+     1>LINK : warning C4742: 'rlock_count' has different alignment in 'C:\Users\mafoti\Documents\Visual Studio 2013\Projects\trunk gridlab-d-code\core\lock.cpp' and 'C:\Users\mafoti\Documents\Visual Studio 2013\Projects\trunk gridlab-d-code\core\exec.c': 4 and 8
+     1>LINK : warning C4743: 'rlock_count' has different size in 'C:\Users\mafoti\Documents\Visual Studio 2013\Projects\trunk gridlab-d-code\core\lock.cpp' and 'C:\Users\mafoti\Documents\Visual Studio 2013\Projects\trunk gridlab-d-code\core\exec.c': 4 and 8 bytes
+     1>LINK : warning C4744: 'rlock_count' has different type in 'C:\Users\mafoti\Documents\Visual Studio 2013\Projects\trunk gridlab-d-code\core\lock.cpp' and 'C:\Users\mafoti\Documents\Visual Studio 2013\Projects\trunk gridlab-d-code\core\exec.c': 'unsigned int' and '__int64'
+     1>LINK : warning C4742: 'wlock_spin' has different alignment in 'C:\Users\mafoti\Documents\Visual Studio 2013\Projects\trunk gridlab-d-code\core\lock.cpp' and 'C:\Users\mafoti\Documents\Visual Studio 2013\Projects\trunk gridlab-d-code\core\exec.c': 4 and 8
+     1>LINK : warning C4743: 'wlock_spin' has different size in 'C:\Users\mafoti\Documents\Visual Studio 2013\Projects\trunk gridlab-d-code\core\lock.cpp' and 'C:\Users\mafoti\Documents\Visual Studio 2013\Projects\trunk gridlab-d-code\core\exec.c': 4 and 8 bytes
+     1>LINK : warning C4744: 'wlock_spin' has different type in 'C:\Users\mafoti\Documents\Visual Studio 2013\Projects\trunk gridlab-d-code\core\lock.cpp' and 'C:\Users\mafoti\Documents\Visual Studio 2013\Projects\trunk gridlab-d-code\core\exec.c': 'unsigned int' and '__int64'
+     1>LINK : warning C4742: 'wlock_count' has different alignment in 'C:\Users\mafoti\Documents\Visual Studio 2013\Projects\trunk gridlab-d-code\core\lock.cpp' and 'C:\Users\mafoti\Documents\Visual Studio 2013\Projects\trunk gridlab-d-code\core\exec.c': 4 and 8
+     1>LINK : warning C4743: 'wlock_count' has different size in 'C:\Users\mafoti\Documents\Visual Studio 2013\Projects\trunk gridlab-d-code\core\lock.cpp' and 'C:\Users\mafoti\Documents\Visual Studio 2013\Projects\trunk gridlab-d-code\core\exec.c': 4 and 8 bytes
+     1>LINK : warning C4744: 'wlock_count' has different type in 'C:\Users\mafoti\Documents\Visual Studio 2013\Projects\trunk gridlab-d-code\core\lock.cpp' and 'C:\Users\mafoti\Documents\Visual Studio 2013\Projects\trunk gridlab-d-code\core\exec.c': 'unsigned int' and '__int64'
+     1>LINK : warning C4744: 'global_sanitizeprefix' has different type in 'C:\Users\mafoti\Documents\Visual Studio 2013\Projects\trunk gridlab-d-code\core\sanitize.cpp' and 'C:\Users\mafoti\Documents\Visual Studio 2013\Projects\trunk gridlab-d-code\core\main.c': 'struct (9 bytes)' and 'array (9 bytes)'
+     1>LINK : warning C4744: 'global_sanitizeoffset' has different type in 'C:\Users\mafoti\Documents\Visual Studio 2013\Projects\trunk gridlab-d-code\core\sanitize.cpp' and 'C:\Users\mafoti\Documents\Visual Studio 2013\Projects\trunk gridlab-d-code\core\main.c': 'struct (33 bytes)' and 'array (33 bytes)'
+     1>LINK : warning C4744: 'global_sanitizeindex' has different type in 'C:\Users\mafoti\Documents\Visual Studio 2013\Projects\trunk gridlab-d-code\core\sanitize.cpp' and 'C:\Users\mafoti\Documents\Visual Studio 2013\Projects\trunk gridlab-d-code\core\main.c': 'struct (1025 bytes)' and 'array (1025 bytes)'
+     1>enduse.obj : error LNK2001: unresolved external symbol __imp_pthread_cond_broadcast
+     1>enduse.obj : error LNK2001: unresolved external symbol __imp_pthread_exit
+     1>enduse.obj : error LNK2001: unresolved external symbol __imp_pthread_create
+     1>enduse.obj : error LNK2001: unresolved external symbol __imp_pthread_mutex_unlock
+     1>enduse.obj : error LNK2001: unresolved external symbol __imp_pthread_mutex_lock
+     1>enduse.obj : error LNK2001: unresolved external symbol __imp_pthread_cond_wait
+     1>exec.obj : error LNK2001: unresolved external symbol __imp_pthread_mutex_init
+     1>exec.obj : error LNK2001: unresolved external symbol __imp_pthread_mutex_destroy
+     1>exec.obj : error LNK2001: unresolved external symbol __imp_pthread_cond_init
+     1>exec.obj : error LNK2001: unresolved external symbol __imp_pthread_cond_destroy
+     1>exec.obj : error LNK2001: unresolved external symbol __imp_pthread_detach
+     1>job.obj : error LNK2001: unresolved external symbol __imp_pthread_join
+     1>..\VS2005\x64\Release\core.exe : fatal error LNK1120: 12 unresolved externals
+     1>Done Building Project "C:\Users\mafoti\Documents\Visual Studio 2013\Projects\trunk gridlab-d-code\core\core.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:11.49

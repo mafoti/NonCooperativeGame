@@ -1,0 +1,10 @@
+# file...... test_markets_controller_cooling_inelastic_double_calculate_setpoint.csv
+# date...... Mon May 04 15:52:52 2015
+# user...... mafoti
+# host...... (null)
+# target.... auction 1
+# trigger... (none)
+# interval.. 900
+# limit..... 4320
+# timestamp,cool_control:base_setpoint,current_market.clearing_price,current_price_mean_30min,cool_control:range_high,cool_control:range_low,cool_control:ramp_high,cool_control:ramp_low,current_price_stdev_30min,house1:cooling_setpoint
+2001-06-25 14:00:00 PDT,+70,+100,+100,+5,+0,+2,+2,+0,+70

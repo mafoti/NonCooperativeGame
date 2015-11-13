@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Test">
+      <UniqueIdentifier>{1fa4c2e5-6e84-430a-9108-96694e45ec11}</UniqueIdentifier>
+      <Extensions>glm</Extensions>
+    </Filter>
+    <Filter Include="Autotest">
+      <UniqueIdentifier>{f54cb982-51f8-4fc6-8840-50bc058d9dec}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="battery.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="central_dg_control.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dc_dc_converter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="diesel_dg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="energy_storage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="init.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="inverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="microturbine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="power_electronics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rectifier.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="solar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="windturb_dg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="battery.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="central_dg_control.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dc_dc_converter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="diesel_dg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="energy_storage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="generators.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inverter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="microturbine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="power_electronics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rectifier.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="solar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="windturb_dg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="test\ieee_dc_dc_test.glm">
+      <Filter>Test</Filter>
+    </None>
+    <None Include="test\ieee_microturbine_battery_test.glm">
+      <Filter>Test</Filter>
+    </None>
+    <None Include="test\ieee_solar_test.glm">
+      <Filter>Test</Filter>
+    </None>
+    <None Include="test\ieee_wg_test.glm">
+      <Filter>Test</Filter>
+    </None>
+    <None Include="test\wtdg_test.glm">
+      <Filter>Test</Filter>
+    </None>
+    <None Include="autotest\diesel_brake_hp.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\solar_Vout.player">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_diesel_dg.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\test_Vout_PV.glm">
+      <Filter>Autotest</Filter>
+    </None>
+    <None Include="autotest\WA-Seattle.tmy2">
+      <Filter>Autotest</Filter>
+    </None>
+  </ItemGroup>
+</Project>

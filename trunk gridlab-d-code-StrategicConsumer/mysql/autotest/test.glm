@@ -1,0 +1,25 @@
+#set verbose=TRUE
+
+module mysql;
+
+object database {
+	name pedram_mysql1;
+	hostname "localhost";
+	username "gridlabd";
+	password "";
+	schema "gridlabd";
+	port 3306;
+}
+
+object mysql.player {
+	connection pedram_mysql1;
+	table loadshape1;
+	property base_power;
+	name LS_659399100_B_hrly_profile;
+};
+
+object ZIPload {
+parent k;
+name b;
+base_power 659399100;
+}

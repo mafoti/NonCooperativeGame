@@ -1,0 +1,34 @@
+﻿Build started 09-Nov-15 3:45:00 PM.
+     1>Project "C:\Users\mafoti\Documents\Visual Studio 2013\Projects\trunk gridlab-d-code-StrategicConsumer\market\market.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\mafoti\Documents\dlib-18.14" /IC:\Users\mafoti\Documents\boost_1_46_1 /I..\core /Zi /nologo /W3 /WX- /O2 /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D _CRT_SECURE_NO_DEPRECATE /D _NO_CPPUNIT /D _WINDLL /D _MBCS /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Win32\Release\market\\" /Fd"Win32\Release\market\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt controller.cpp
+         controller.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(102): warning C4005: 'INFINITY' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code-strategicconsumer\core\platform.h(46) : see previous definition of 'INFINITY'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\mafoti\Documents\Visual Studio 2013\Projects\trunk gridlab-d-code-StrategicConsumer\market\\..\VS2005\Win32\Release\market.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\MySQL\Connector.C++ 1.1\lib\opt" /LIBPATH:C:\Users\mafoti\Documents\boost_1_46_1\libs /LIBPATH:..\VS2005\Win32\Release\ /LIBPATH:"C:\Users\mafoti\Documents\Visual Studio 2013\Projects\trunk gridlab-d-code-StrategicConsumer\market\Win32\Release" mysqlcppconn.lib libmysql.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"..\VS2005\Win32\Release\market.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\VS2005\Win32\Release\market.lib" /MACHINE:X86 /SAFESEH /DLL Win32\Release\market\source.obj
+         Win32\Release\market\auction.obj
+         Win32\Release\market\bid.obj
+         Win32\Release\market\controller.obj
+         Win32\Release\market\curve.obj
+         Win32\Release\market\double_controller.obj
+         Win32\Release\market\game.obj
+         Win32\Release\market\generator_controller.obj
+         Win32\Release\market\hvacGame.obj
+         Win32\Release\market\init.obj
+         Win32\Release\market\main.obj
+         Win32\Release\market\passive_controller.obj
+         Win32\Release\market\predict.obj
+         Win32\Release\market\stubauction.obj
+         Win32\Release\market\stub_bidder.obj
+         Win32\Release\market\trainer.obj
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+            Creating library ..\VS2005\Win32\Release\market.lib and object ..\VS2005\Win32\Release\market.exp
+         Generating code
+         Finished generating code
+         market.vcxproj -> C:\Users\mafoti\Documents\Visual Studio 2013\Projects\trunk gridlab-d-code-StrategicConsumer\market\..\VS2005\Win32\Release\market.dll
+     1>Done Building Project "C:\Users\mafoti\Documents\Visual Studio 2013\Projects\trunk gridlab-d-code-StrategicConsumer\market\market.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.75

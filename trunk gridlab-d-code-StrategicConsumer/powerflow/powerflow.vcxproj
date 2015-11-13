@@ -1,0 +1,654 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="QuickDebug|Win32">
+      <Configuration>QuickDebug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="QuickDebug|x64">
+      <Configuration>QuickDebug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D685626B-BEB1-47B8-970A-45041514A9C5}</ProjectGuid>
+    <RootNamespace>gridlabd</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='QuickDebug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='QuickDebug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='QuickDebug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='QuickDebug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>12.0.30501.0</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\VS2005\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <ExtensionsToDeleteOnClean>*.obj%3b*.ilk%3b*.tlb%3b*.tli%3b*.tlh%3b*.tmp%3b*.rsp%3b*.pgc%3b*.pgd%3b$(TargetPath)</ExtensionsToDeleteOnClean>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>..\VS2005\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <ExtensionsToDeleteOnClean>*.obj%3b*.ilk%3b*.tlb%3b*.tli%3b*.tlh%3b*.tmp%3b*.rsp%3b*.pgc%3b*.pgd%3b$(TargetPath)</ExtensionsToDeleteOnClean>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\VS2005\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <ExtensionsToDeleteOnClean>*.obj%3b*.ilk%3b*.tlb%3b*.tli%3b*.tlh%3b*.tmp%3b*.rsp%3b*.pgc%3b*.pgd%3b$(TargetPath)</ExtensionsToDeleteOnClean>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>..\VS2005\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <ExtensionsToDeleteOnClean>*.obj%3b*.ilk%3b*.tlb%3b*.tli%3b*.tlh%3b*.tmp%3b*.rsp%3b*.pgc%3b*.pgd%3b$(TargetPath)</ExtensionsToDeleteOnClean>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='QuickDebug|Win32'">
+    <OutDir>..\VS2005\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <ExtensionsToDeleteOnClean>*.obj%3b*.ilk%3b*.tlb%3b*.tli%3b*.tlh%3b*.tmp%3b*.rsp%3b*.pgc%3b*.pgd%3b$(TargetPath)</ExtensionsToDeleteOnClean>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='QuickDebug|x64'">
+    <OutDir>..\VS2005\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <ExtensionsToDeleteOnClean>*.obj%3b*.ilk%3b*.tlb%3b*.tli%3b*.tlh%3b*.tmp%3b*.rsp%3b*.pgc%3b*.pgd%3b$(TargetPath)</ExtensionsToDeleteOnClean>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\core;..\third_party\superLU_MT;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;_CRT_SECURE_NO_DEPRECATE;_TESTING;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <Link>
+      <AdditionalDependencies>CBLAS.lib;pthreadVC2.lib;superLU_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\core;..\third_party\superLU_MT;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;_CRT_SECURE_NO_DEPRECATE;_TESTING;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>CBLAS.lib;pthreadVC2.lib;superLU_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\core;..\third_party\superLU_MT;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;_CRT_SECURE_NO_DEPRECATE;_NO_CPPUNIT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>CBLAS.lib;pthreadVC2.lib;superLU_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>LIBCMT.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\core;..\third_party\superLU_MT;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;_CRT_SECURE_NO_DEPRECATE;_NO_CPPUNIT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>CBLAS.lib;pthreadVC2.lib;superLU_MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OutDir);../pthreads;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>LIBCMT.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='QuickDebug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='QuickDebug|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="billdump.cpp" />
+    <ClCompile Include="capacitor.cpp" />
+    <ClCompile Include="currdump.cpp" />
+    <ClCompile Include="emissions.cpp" />
+    <ClCompile Include="fault_check.cpp" />
+    <ClCompile Include="frequency_gen.cpp" />
+    <ClCompile Include="fuse.cpp" />
+    <ClCompile Include="init.cpp" />
+    <ClCompile Include="line.cpp" />
+    <ClCompile Include="line_configuration.cpp" />
+    <ClCompile Include="line_spacing.cpp" />
+    <ClCompile Include="link.cpp" />
+    <ClCompile Include="load.cpp" />
+    <ClCompile Include="load_tracker.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="meter.cpp" />
+    <ClCompile Include="motor.cpp" />
+    <ClCompile Include="node.cpp" />
+    <ClCompile Include="overhead_line.cpp" />
+    <ClCompile Include="overhead_line_conductor.cpp" />
+    <ClCompile Include="powerflow.cpp" />
+    <ClCompile Include="powerflow_library.cpp" />
+    <ClCompile Include="powerflow_object.cpp" />
+    <ClCompile Include="power_metrics.cpp" />
+    <ClCompile Include="pqload.cpp" />
+    <ClCompile Include="recloser.cpp" />
+    <ClCompile Include="regulator.cpp" />
+    <ClCompile Include="regulator_configuration.cpp" />
+    <ClCompile Include="restoration.cpp" />
+    <ClCompile Include="sectionalizer.cpp" />
+    <ClCompile Include="series_reactor.cpp" />
+    <ClCompile Include="solver_nr.cpp" />
+    <ClCompile Include="substation.cpp" />
+    <ClCompile Include="switch_object.cpp" />
+    <ClCompile Include="test.cpp" />
+    <ClCompile Include="transformer.cpp" />
+    <ClCompile Include="transformer_configuration.cpp" />
+    <ClCompile Include="triplex_line.cpp" />
+    <ClCompile Include="triplex_line_conductor.cpp" />
+    <ClCompile Include="triplex_line_configuration.cpp" />
+    <ClCompile Include="triplex_load.cpp" />
+    <ClCompile Include="triplex_meter.cpp" />
+    <ClCompile Include="triplex_node.cpp" />
+    <ClCompile Include="underground_line.cpp" />
+    <ClCompile Include="underground_line_conductor.cpp" />
+    <ClCompile Include="voltdump.cpp" />
+    <ClCompile Include="volt_var_control.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="billdump.h" />
+    <ClInclude Include="capacitor.h" />
+    <ClInclude Include="check.h" />
+    <ClInclude Include="currdump.h" />
+    <ClInclude Include="emissions.h" />
+    <ClInclude Include="fault_check.h" />
+    <ClInclude Include="frequency_gen.h" />
+    <ClInclude Include="fuse.h" />
+    <ClInclude Include="line.h" />
+    <ClInclude Include="line_configuration.h" />
+    <ClInclude Include="line_spacing.h" />
+    <ClInclude Include="link.h" />
+    <ClInclude Include="load.h" />
+    <ClInclude Include="load_tracker.h" />
+    <ClInclude Include="meter.h" />
+    <ClInclude Include="meter_test.h" />
+    <ClInclude Include="motor.h" />
+    <ClInclude Include="node.h" />
+    <ClInclude Include="overheadline_test.h" />
+    <ClInclude Include="overhead_line.h" />
+    <ClInclude Include="overhead_line_conductor.h" />
+    <ClInclude Include="powerflow.h" />
+    <ClInclude Include="powerflow_library.h" />
+    <ClInclude Include="powerflow_object.h" />
+    <ClInclude Include="power_metrics.h" />
+    <ClInclude Include="pqload.h" />
+    <ClInclude Include="recloser.h" />
+    <ClInclude Include="regulator.h" />
+    <ClInclude Include="regulator_configuration.h" />
+    <ClInclude Include="regulator_test.h" />
+    <ClInclude Include="restoration.h" />
+    <ClInclude Include="sectionalizer.h" />
+    <ClInclude Include="series_reactor.h" />
+    <ClInclude Include="solver_nr.h" />
+    <ClInclude Include="substation.h" />
+    <ClInclude Include="switch_object.h" />
+    <ClInclude Include="test.h" />
+    <ClInclude Include="transformer.h" />
+    <ClInclude Include="transformer_configuration.h" />
+    <ClInclude Include="transformer_test.h" />
+    <ClInclude Include="triplexline_test.h" />
+    <ClInclude Include="triplex_line.h" />
+    <ClInclude Include="triplex_line_conductor.h" />
+    <ClInclude Include="triplex_line_configuration.h" />
+    <ClInclude Include="triplex_load.h" />
+    <ClInclude Include="triplex_meter.h" />
+    <ClInclude Include="triplex_node.h" />
+    <ClInclude Include="undergroundline_test.h" />
+    <ClInclude Include="underground_line.h" />
+    <ClInclude Include="underground_line_conductor.h" />
+    <ClInclude Include="voltdump.h" />
+    <ClInclude Include="volt_var_control.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="autotest\billing_power.player" />
+    <None Include="autotest\cap_current_A_indiv_volt.player" />
+    <None Include="autotest\cap_current_B_indiv_volt.player" />
+    <None Include="autotest\cap_current_C_indiv_volt.player" />
+    <None Include="autotest\cap_manual_switch.player" />
+    <None Include="autotest\cap_volt_A_bank_dwell.player" />
+    <None Include="autotest\cap_volt_A_BANK_VAR_dwell.player" />
+    <None Include="autotest\cap_volt_A_indiv_dwell.player" />
+    <None Include="autotest\cap_volt_A_indiv_dwell_NR.player" />
+    <None Include="autotest\cap_volt_A_indiv_VAR.player" />
+    <None Include="autotest\cap_volt_A_indiv_VAR_B_NR.player" />
+    <None Include="autotest\cap_volt_A_indiv_VAR_dwell.player" />
+    <None Include="autotest\cap_volt_A_indiv_VAR_dwell_NR.player" />
+    <None Include="autotest\cap_volt_A_indiv_VAR_NR.player" />
+    <None Include="autotest\cap_volt_A_indiv_volt.player" />
+    <None Include="autotest\cap_volt_A_indiv_VOLTVAR.player" />
+    <None Include="autotest\cap_volt_A_indiv_VOLTVAR_dwell.player" />
+    <None Include="autotest\cap_volt_A_indiv_VOLTVAR_NR.player" />
+    <None Include="autotest\cap_volt_A_indiv_volt_NR.player" />
+    <None Include="autotest\cap_volt_A_indiv_volt_NR_Y.player" />
+    <None Include="autotest\cap_volt_A_manual_ts.player" />
+    <None Include="autotest\cap_volt_B_bank_dwell.player" />
+    <None Include="autotest\cap_volt_B_BANK_VAR_dwell.player" />
+    <None Include="autotest\cap_volt_B_indiv_dwell.player" />
+    <None Include="autotest\cap_volt_B_indiv_dwell_NR.player" />
+    <None Include="autotest\cap_volt_B_indiv_VAR.player" />
+    <None Include="autotest\cap_volt_B_indiv_VAR_B_NR.player" />
+    <None Include="autotest\cap_volt_B_indiv_VAR_dwell.player" />
+    <None Include="autotest\cap_volt_B_indiv_VAR_dwell_NR.player" />
+    <None Include="autotest\cap_volt_B_indiv_VAR_NR.player" />
+    <None Include="autotest\cap_volt_B_indiv_volt.player" />
+    <None Include="autotest\cap_volt_B_indiv_VOLTVAR.player" />
+    <None Include="autotest\cap_volt_B_indiv_VOLTVAR_dwell.player" />
+    <None Include="autotest\cap_volt_B_indiv_VOLTVAR_NR.player" />
+    <None Include="autotest\cap_volt_B_indiv_volt_NR.player" />
+    <None Include="autotest\cap_volt_B_indiv_volt_NR_Y.player" />
+    <None Include="autotest\cap_volt_B_manual_ts.player" />
+    <None Include="autotest\cap_volt_C_bank_dwell.player" />
+    <None Include="autotest\cap_volt_C_BANK_VAR_dwell.player" />
+    <None Include="autotest\cap_volt_C_indiv_dwell.player" />
+    <None Include="autotest\cap_volt_C_indiv_dwell_NR.player" />
+    <None Include="autotest\cap_volt_C_indiv_VAR.player" />
+    <None Include="autotest\cap_volt_C_indiv_VAR_B_NR.player" />
+    <None Include="autotest\cap_volt_C_indiv_VAR_dwell.player" />
+    <None Include="autotest\cap_volt_C_indiv_VAR_dwell_NR.player" />
+    <None Include="autotest\cap_volt_C_indiv_VAR_NR.player" />
+    <None Include="autotest\cap_volt_C_indiv_volt.player" />
+    <None Include="autotest\cap_volt_C_indiv_VOLTVAR.player" />
+    <None Include="autotest\cap_volt_C_indiv_VOLTVAR_dwell.player" />
+    <None Include="autotest\cap_volt_C_indiv_VOLTVAR_NR.player" />
+    <None Include="autotest\cap_volt_C_indiv_volt_NR.player" />
+    <None Include="autotest\cap_volt_C_indiv_volt_NR_Y.player" />
+    <None Include="autotest\cap_volt_C_manual_ts.player" />
+    <None Include="autotest\center_tapped_basic_energy.player" />
+    <None Include="autotest\center_tapped_complex_energy.player" />
+    <None Include="autotest\dutycycle_player.player" />
+    <None Include="autotest\fuse_assert_status_B.player" />
+    <None Include="autotest\fuse_assert_status_C.player" />
+    <None Include="autotest\fuse_load_B.player" />
+    <None Include="autotest\fuse_ph_A_status.player" />
+    <None Include="autotest\fuse_ph_B_status.player" />
+    <None Include="autotest\fuse_ph_C_status.player" />
+    <None Include="autotest\loader_fastA.player" />
+    <None Include="autotest\loader_fastA_induct.player" />
+    <None Include="autotest\loader_fastA_NR.player" />
+    <None Include="autotest\loader_fastB.player" />
+    <None Include="autotest\loader_fastB_induct.player" />
+    <None Include="autotest\loader_fastB_NR.player" />
+    <None Include="autotest\loader_fastC.player" />
+    <None Include="autotest\loader_fastC_induct.player" />
+    <None Include="autotest\loader_fastC_NR.player" />
+    <None Include="autotest\regulator_load_phA.player" />
+    <None Include="autotest\regulator_load_phB.player" />
+    <None Include="autotest\regulator_load_phC.player" />
+    <None Include="autotest\regulator_manual_YY_assert_A.player" />
+    <None Include="autotest\regulator_manual_YY_assert_A_TypeB.player" />
+    <None Include="autotest\regulator_manual_YY_assert_B.player" />
+    <None Include="autotest\regulator_manual_YY_assert_B_TypeB.player" />
+    <None Include="autotest\regulator_manual_YY_assert_C.player" />
+    <None Include="autotest\regulator_manual_YY_assert_C_TypeB.player" />
+    <None Include="autotest\regulator_manual_YY_tap_A.player" />
+    <None Include="autotest\regulator_manual_YY_tap_B.player" />
+    <None Include="autotest\regulator_manual_YY_tap_C.player" />
+    <None Include="autotest\stub_bill_price.player" />
+    <None Include="autotest\stub_nofee_bill_value.player" />
+    <None Include="autotest\test_balanced_stepdown_D-D.glm" />
+    <None Include="autotest\test_balanced_stepdown_D-D_NR.glm" />
+    <None Include="autotest\test_balanced_stepdown_D-grY.glm" />
+    <None Include="autotest\test_balanced_stepdown_D-grY_NR.glm" />
+    <None Include="autotest\test_balanced_stepdown_D-grY_phA.glm" />
+    <None Include="autotest\test_balanced_stepdown_D-grY_phAB.glm" />
+    <None Include="autotest\test_balanced_stepdown_D-grY_phB.glm" />
+    <None Include="autotest\test_balanced_stepdown_D-grY_phC.glm" />
+    <None Include="autotest\test_balanced_stepdown_D_D_phA.glm" />
+    <None Include="autotest\test_balanced_stepdown_D_D_phAB.glm" />
+    <None Include="autotest\test_balanced_stepdown_D_D_phB.glm" />
+    <None Include="autotest\test_balanced_stepdown_D_D_phC.glm" />
+    <None Include="autotest\test_balanced_stepdown_grY-grY.glm" />
+    <None Include="autotest\test_balanced_stepdown_grY-grY_NR.glm" />
+    <None Include="autotest\test_balanced_stepdown_grY-grY_phA.glm" />
+    <None Include="autotest\test_balanced_stepdown_grY-grY_phAB.glm" />
+    <None Include="autotest\test_balanced_stepdown_grY-grY_phB.glm" />
+    <None Include="autotest\test_balanced_stepdown_grY-grY_phC.glm" />
+    <None Include="autotest\test_balanced_stepup_D-D.glm" />
+    <None Include="autotest\test_balanced_stepup_D-D_NR.glm" />
+    <None Include="autotest\test_balanced_stepup_D-D_phA.glm" />
+    <None Include="autotest\test_balanced_stepup_D-D_phAB.glm" />
+    <None Include="autotest\test_balanced_stepup_D-D_phB.glm" />
+    <None Include="autotest\test_balanced_stepup_D-D_phC.glm" />
+    <None Include="autotest\test_balanced_stepup_D-grY.glm" />
+    <None Include="autotest\test_balanced_stepup_D-grY_NR.glm" />
+    <None Include="autotest\test_balanced_stepup_D-grY_phA.glm" />
+    <None Include="autotest\test_balanced_stepup_D-grY_phAB.glm" />
+    <None Include="autotest\test_balanced_stepup_D-grY_phB.glm" />
+    <None Include="autotest\test_balanced_stepup_D-grY_phC.glm" />
+    <None Include="autotest\test_balanced_stepup_grY-grY.glm" />
+    <None Include="autotest\test_balanced_stepup_grY-grY_NR.glm" />
+    <None Include="autotest\test_balanced_stepup_grY-grY_phA.glm" />
+    <None Include="autotest\test_balanced_stepup_grY-grY_phAB.glm" />
+    <None Include="autotest\test_balanced_stepup_grY-grY_phB.glm" />
+    <None Include="autotest\test_balanced_stepup_grY-grY_phC.glm" />
+    <None Include="autotest\test_capacitor_CURRENT_ABC_indiv.glm" />
+    <None Include="autotest\test_capacitor_CURRENT_ABC_indiv_NR.glm" />
+    <None Include="autotest\test_capacitor_manual_ABC_bank_time_series.glm" />
+    <None Include="autotest\test_capacitor_manual_ABC_bank_time_series_NR.glm" />
+    <None Include="autotest\test_capacitor_manual_ABC_time_series.glm" />
+    <None Include="autotest\test_capacitor_manual_ABC_time_series_NR.glm" />
+    <None Include="autotest\test_capacitor_manual_single_ABBCD.glm" />
+    <None Include="autotest\test_capacitor_manual_single_ABBCD_NR.glm" />
+    <None Include="autotest\test_capacitor_manual_single_ABBCD_service.glm" />
+    <None Include="autotest\test_capacitor_manual_single_ABBCD_Y.glm" />
+    <None Include="autotest\test_capacitor_manual_single_ABBCD_Y_NR.glm" />
+    <None Include="autotest\test_capacitor_manual_single_ABCAD.glm" />
+    <None Include="autotest\test_capacitor_manual_single_ABCAD_NR.glm" />
+    <None Include="autotest\test_capacitor_manual_single_ABCAD_Y.glm" />
+    <None Include="autotest\test_capacitor_manual_single_ABCAD_Y_NR.glm" />
+    <None Include="autotest\test_capacitor_manual_single_ABD.glm" />
+    <None Include="autotest\test_capacitor_manual_single_ABD_NR.glm" />
+    <None Include="autotest\test_capacitor_manual_single_ABD_Y.glm" />
+    <None Include="autotest\test_capacitor_manual_single_ABD_Y_NR.glm" />
+    <None Include="autotest\test_capacitor_manual_single_ABN.glm" />
+    <None Include="autotest\test_capacitor_manual_single_ABN_NR.glm" />
+    <None Include="autotest\test_capacitor_manual_single_allOff.glm" />
+    <None Include="autotest\test_capacitor_manual_single_allOff_NR.glm" />
+    <None Include="autotest\test_capacitor_manual_single_All_D.glm" />
+    <None Include="autotest\test_capacitor_manual_single_All_D_NR.glm" />
+    <None Include="autotest\test_capacitor_manual_single_All_D_Y.glm" />
+    <None Include="autotest\test_capacitor_manual_single_All_D_Y_NR.glm" />
+    <None Include="autotest\test_capacitor_manual_single_All_N.glm" />
+    <None Include="autotest\test_capacitor_manual_single_All_N_NR.glm" />
+    <None Include="autotest\test_capacitor_manual_single_AN.glm" />
+    <None Include="autotest\test_capacitor_manual_single_AN_NR.glm" />
+    <None Include="autotest\test_capacitor_manual_single_BCCAD.glm" />
+    <None Include="autotest\test_capacitor_manual_single_BCCAD_NR.glm" />
+    <None Include="autotest\test_capacitor_manual_single_BCCAD_Y.glm" />
+    <None Include="autotest\test_capacitor_manual_single_BCCAD_Y_NR.glm" />
+    <None Include="autotest\test_capacitor_manual_single_BCD.glm" />
+    <None Include="autotest\test_capacitor_manual_single_BCD_NR.glm" />
+    <None Include="autotest\test_capacitor_manual_single_BCD_Y.glm" />
+    <None Include="autotest\test_capacitor_manual_single_BCD_Y_NR.glm" />
+    <None Include="autotest\test_capacitor_manual_single_BCN.glm" />
+    <None Include="autotest\test_capacitor_manual_single_BCN_NR.glm" />
+    <None Include="autotest\test_capacitor_manual_single_BN.glm" />
+    <None Include="autotest\test_capacitor_manual_single_BN_NR.glm" />
+    <None Include="autotest\test_capacitor_manual_single_CAD.glm" />
+    <None Include="autotest\test_capacitor_manual_single_CAD_NR.glm" />
+    <None Include="autotest\test_capacitor_manual_single_CAD_Y.glm" />
+    <None Include="autotest\test_capacitor_manual_single_CAD_Y_NR.glm" />
+    <None Include="autotest\test_capacitor_manual_single_CAN.glm" />
+    <None Include="autotest\test_capacitor_manual_single_CAN_NR.glm" />
+    <None Include="autotest\test_capacitor_manual_single_CN.glm" />
+    <None Include="autotest\test_capacitor_manual_single_CN_NR.glm" />
+    <None Include="autotest\test_capacitor_VAR_ABC_BANK_B.glm" />
+    <None Include="autotest\test_capacitor_VAR_ABC_BANK_B_NR.glm" />
+    <None Include="autotest\test_capacitor_VAR_ABC_indiv.glm" />
+    <None Include="autotest\test_capacitor_VAR_ABC_indiv_dwell.glm" />
+    <None Include="autotest\test_capacitor_VAR_ABC_indiv_dwell_NR.glm" />
+    <None Include="autotest\test_capacitor_VAR_ABC_indiv_NR.glm" />
+    <None Include="autotest\test_capacitor_VAR_ABC_indiv_Y.glm" />
+    <None Include="autotest\test_capacitor_VAR_ABC_indiv_Y_NR.glm" />
+    <None Include="autotest\test_capacitor_VAR_VOLT_ABC_indiv.glm" />
+    <None Include="autotest\test_capacitor_VAR_VOLT_ABC_indiv_dwell.glm" />
+    <None Include="autotest\test_capacitor_VAR_VOLT_ABC_indiv_dwell_NR.glm" />
+    <None Include="autotest\test_capacitor_VAR_VOLT_ABC_indiv_NR.glm" />
+    <None Include="autotest\test_capacitor_volt_ABC_BANK_A.glm" />
+    <None Include="autotest\test_capacitor_volt_ABC_BANK_A_NR.glm" />
+    <None Include="autotest\test_capacitor_volt_ABC_indiv.glm" />
+    <None Include="autotest\test_capacitor_volt_ABC_indiv_dwell.glm" />
+    <None Include="autotest\test_capacitor_volt_ABC_indiv_dwell_NR.glm" />
+    <None Include="autotest\test_capacitor_volt_ABC_indiv_NR.glm" />
+    <None Include="autotest\test_capacitor_volt_ABC_indiv_Y.glm" />
+    <None Include="autotest\test_capacitor_volt_ABC_indiv_Y_NR.glm" />
+    <None Include="autotest\test_capacitor_volt_single_ABBCD_service.glm" />
+    <None Include="autotest\test_center_tapped_basic.glm" />
+    <None Include="autotest\test_center_tapped_basic_NR.glm" />
+    <None Include="autotest\test_center_tapped_complex.glm" />
+    <None Include="autotest\test_center_tapped_complex_NR.glm" />
+    <None Include="autotest\test_dutycycle.glm" />
+    <None Include="autotest\test_fuse.glm" />
+    <None Include="autotest\test_IEEE-123_FBS.glm" />
+    <None Include="autotest\test_IEEE-13_FBS.glm" />
+    <None Include="autotest\test_IEEE_13_FBS.glm" />
+    <None Include="autotest\test_IEEE_13_NR.glm" />
+    <None Include="autotest\test_IEEE_37node.glm" />
+    <None Include="autotest\test_opt_regulator_linedropcomp_YY_A_NR.glm" />
+    <None Include="autotest\test_opt_regulator_linedropcomp_YY_A_NR_ts.glm" />
+    <None Include="autotest\test_opt_regulator_linedropcomp_YY_B_NR.glm" />
+    <None Include="autotest\test_opt_regulator_linedropcomp_YY_B_NR_ts.glm" />
+    <None Include="autotest\test_opt_reg_linedropcomp2_YY_A_NR.glm" />
+    <None Include="autotest\test_opt_reg_linedropcomp2_YY_A_NR_ts.glm" />
+    <None Include="autotest\test_opt_reg_linedropcomp2_YY_B_NR.glm" />
+    <None Include="autotest\test_opt_reg_linedropcomp2_YY_B_NR_ts.glm" />
+    <None Include="autotest\test_powerflow_exercise_4_1_3.glm" />
+    <None Include="autotest\test_powerflow_transformer_thermal_model.glm" />
+    <None Include="autotest\test_regulator_linedropcomp2_YY_A.glm" />
+    <None Include="autotest\test_regulator_linedropcomp2_YY_A_ts.glm" />
+    <None Include="autotest\test_regulator_linedropcomp2_YY_B.glm" />
+    <None Include="autotest\test_regulator_linedropcomp2_YY_B_ts.glm" />
+    <None Include="autotest\test_regulator_linedropcomp_YY_A.glm" />
+    <None Include="autotest\test_regulator_linedropcomp_YY_A_ts.glm" />
+    <None Include="autotest\test_regulator_linedropcomp_YY_B.glm" />
+    <None Include="autotest\test_regulator_linedropcomp_YY_B_ts.glm" />
+    <None Include="autotest\test_regulator_manual_YY_A.glm" />
+    <None Include="autotest\test_regulator_manual_YY_A_1ph.glm" />
+    <None Include="autotest\test_regulator_manual_YY_A_1ph_NR.glm" />
+    <None Include="autotest\test_regulator_manual_YY_A_2ph.glm" />
+    <None Include="autotest\test_regulator_manual_YY_A_2ph_NR.glm" />
+    <None Include="autotest\test_regulator_manual_YY_A_NR.glm" />
+    <None Include="autotest\test_regulator_manual_YY_B.glm" />
+    <None Include="autotest\test_regulator_manual_YY_B_NR.glm" />
+    <None Include="autotest\test_regulator_outputvolt_YY_A.glm" />
+    <None Include="autotest\test_regulator_outputvolt_YY_A_NR.glm" />
+    <None Include="autotest\test_regulator_outputvolt_YY_A_NR_ts.glm" />
+    <None Include="autotest\test_regulator_outputvolt_YY_A_ts.glm" />
+    <None Include="autotest\test_regulator_outputvolt_YY_B.glm" />
+    <None Include="autotest\test_regulator_outputvolt_YY_B_NR.glm" />
+    <None Include="autotest\test_regulator_outputvolt_YY_B_NR_ts.glm" />
+    <None Include="autotest\test_regulator_outputvolt_YY_B_ts.glm" />
+    <None Include="autotest\test_regulator_remotesense_YY_A.glm" />
+    <None Include="autotest\test_regulator_remotesense_YY_A_NR.glm" />
+    <None Include="autotest\test_regulator_remotesense_YY_A_NR_ts.glm" />
+    <None Include="autotest\test_regulator_remotesense_YY_A_ts.glm" />
+    <None Include="autotest\test_regulator_remotesense_YY_B.glm" />
+    <None Include="autotest\test_regulator_remotesense_YY_B_NR.glm" />
+    <None Include="autotest\test_regulator_remotesense_YY_B_NR_ts.glm" />
+    <None Include="autotest\test_regulator_remotesense_YY_B_ts.glm" />
+    <None Include="autotest\test_triplex_billing_stub.glm" />
+    <None Include="autotest\test_triplex_billing_tiered_fee.glm" />
+    <None Include="autotest\test_triplex_billing_tiered_nofee.glm" />
+    <None Include="autotest\test_triplex_billing_uniform_fee.glm" />
+    <None Include="autotest\test_triplex_billing_uniform_nofee.glm" />
+    <None Include="autotest\test_unbalanced_stepdown_D-D.glm" />
+    <None Include="autotest\test_unbalanced_stepdown_D-D_NR.glm" />
+    <None Include="autotest\test_unbalanced_stepdown_D-grY.glm" />
+    <None Include="autotest\test_unbalanced_stepdown_D-grY_NR.glm" />
+    <None Include="autotest\test_unbalanced_stepdown_grY-grY.glm" />
+    <None Include="autotest\test_unbalanced_stepdown_grY-grY_NR.glm" />
+    <None Include="autotest\test_unbalanced_stepup_D-D.glm" />
+    <None Include="autotest\test_unbalanced_stepup_D-D_NR.glm" />
+    <None Include="autotest\test_unbalanced_stepup_D-grY.glm" />
+    <None Include="autotest\test_unbalanced_stepup_D-grY_NR.glm" />
+    <None Include="autotest\test_unbalanced_stepup_grY-grY.glm" />
+    <None Include="autotest\test_unbalanced_stepup_grY-grY_NR.glm" />
+    <None Include="autotest\WA-Yakima.tmy2" />
+    <None Include="tests\37node\IEEE37-Dec17.glm" />
+    <None Include="tests\4node\balanced_stepdown_D-D.glm" />
+    <None Include="tests\4node\balanced_stepdown_D-grY.glm" />
+    <None Include="tests\4node\balanced_stepdown_grY-grY.glm" />
+    <None Include="tests\4node\balanced_stepup_D-D.glm" />
+    <None Include="tests\4node\balanced_stepup_D-grY.glm" />
+    <None Include="tests\4node\balanced_stepup_grY-grY.glm" />
+    <None Include="tests\4node\unbalanced_stepdown_D-D.glm" />
+    <None Include="tests\4node\unbalanced_stepdown_D-grY.glm" />
+    <None Include="tests\4node\unbalanced_stepdown_grY-grY.glm" />
+    <None Include="tests\4node\unbalanced_stepup_D-D.glm" />
+    <None Include="tests\4node\unbalanced_stepup_D-grY.glm" />
+    <None Include="tests\4node\unbalanced_stepup_grY-grY.glm" />
+    <None Include="test\test.glm" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

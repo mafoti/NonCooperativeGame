@@ -1,0 +1,19 @@
+# file...... test_markets_controller_cooling_inelastic_double_calculate_bid_price.csv
+# date...... Mon May 04 15:52:52 2015
+# user...... mafoti
+# host...... (null)
+# target.... auction 1
+# trigger... (none)
+# interval.. 90
+# limit..... 4320
+# timestamp,current_price_mean_30min,house1:air_temperature,cool_control:base_setpoint,cool_control:ramp_low,cool_control:ramp_high,current_price_stdev_30min,cool_control:range_low,cool_control:range_high,cool_control:bid_price
+2001-06-25 14:00:00 PDT,+100,+72,+70,+2,+2,+0,+0,+5,+100
+2001-06-25 14:01:30 PDT,+100,+71.3327,+70,+2,+2,+0,+0,+5,+100
+2001-06-25 14:03:00 PDT,+100,+70.7915,+70,+2,+2,+0,+0,+5,+100
+2001-06-25 14:04:30 PDT,+100,+70.3551,+70,+2,+2,+0,+0,+5,+100
+2001-06-25 14:06:00 PDT,+100,+69.9981,+70,+2,+2,+0,+0,+5,+100
+2001-06-25 14:07:30 PDT,+100,+69.7011,+70,+2,+2,+0,+0,+5,+100
+2001-06-25 14:09:00 PDT,+100,+69.4495,+70,+2,+2,+0,+0,+5,+100
+2001-06-25 14:10:30 PDT,+100,+69.2324,+70,+2,+2,+0,+0,+5,+100
+2001-06-25 14:12:00 PDT,+100,+69.0414,+70,+2,+2,+0,+0,+5,+100
+2001-06-25 14:13:30 PDT,+100,+69.663,+70,+2,+2,+0,+0,+5,+100

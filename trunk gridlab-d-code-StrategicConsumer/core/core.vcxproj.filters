@@ -1,0 +1,828 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Linux Files">
+      <UniqueIdentifier>{1fda4b53-3e28-424c-a36e-4e2b6ce5ca64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Linux Files\Automake">
+      <UniqueIdentifier>{d1d74e65-66a0-4be9-87bd-d97678048d9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test Files">
+      <UniqueIdentifier>{56bb9e06-437a-4721-bea5-5e115d9b5c92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test Files\Autotest">
+      <UniqueIdentifier>{d4bafe45-eff4-4197-8fd3-9a5e9affdbec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Runtime Files">
+      <UniqueIdentifier>{a64b6b64-5fc0-4278-a680-ed8742912ae2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Runtime Files\Support Files">
+      <UniqueIdentifier>{f641ac2f-c8ae-429d-b14d-b641c75d8a19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Runtime Files\Support Files\Models">
+      <UniqueIdentifier>{617698a3-45af-4501-8e19-417e8134d398}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Runtime Files\Support Files\Status">
+      <UniqueIdentifier>{8184db12-c980-4875-88b1-5db78df7d43a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Runtime Files\Support Files\WebGUI">
+      <UniqueIdentifier>{28e03234-49bc-4338-b754-fdccd8624a4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Runtime Files\HTML">
+      <UniqueIdentifier>{4071c61a-d568-4694-9f30-4047b06100ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Validation">
+      <UniqueIdentifier>{be31af33-80a4-4e03-8e66-9a01fecfcfbe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="aggregate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="class.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cmdarg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="compare.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="convert.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="debug.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="deltamode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="enduse.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="environment.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="exception.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="exec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="find.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="globals.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="http_client.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="index.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="instance.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="instance_cnx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="instance_slave.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="interpolate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="job.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kill.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kml.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="legal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="link.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="linkage.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="list.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="load.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="load_xml.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="load_xml_handle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="loadshape.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="local.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="match.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="matlab.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="module.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="object.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="output.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="property.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="random.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="realtime.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sanitize.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="save.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="schedule.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="server.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="setup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test_framework.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="threadpool.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="timestamp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="transform.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ufile.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="unit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="validate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="aggregate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="class.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cmdarg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="compare.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="complex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="console.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="convert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="debug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="deltamode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="enduse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="environment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="exception.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="exec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="find.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gld_sock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gridlabd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="http_client.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="index.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="instance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="instance_cnx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="instance_slave.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interpolate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="job.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kill.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kml.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="legal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="link.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="linkage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="load.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="load_xml.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="load_xml_handle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="loadshape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="local.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="match.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="matlab.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="module.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="object.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="output.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="platform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="property.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="random.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="realtime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sanitize.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="save.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="schedule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="server.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="setup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stream_type.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test_callbacks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test_framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="threadpool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="timestamp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="transform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ufile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="unit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="validate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="asm\cmpxchg.h">
+      <Filter>Linux Files</Filter>
+    </ClInclude>
+    <ClInclude Include="asm\x86\cmpxchg.h">
+      <Filter>Linux Files</Filter>
+    </ClInclude>
+    <ClInclude Include="asm\x86_64\cmpxchg.h">
+      <Filter>Linux Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rt\gridlabd.h">
+      <Filter>Runtime Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\aminclude.am">
+      <Filter>Linux Files</Filter>
+    </None>
+    <None Include="..\BUILD">
+      <Filter>Linux Files</Filter>
+    </None>
+    <None Include="..\compare-sources">
+      <Filter>Linux Files</Filter>
+    </None>
+    <None Include="..\configure.ac">
+      <Filter>Linux Files</Filter>
+    </None>
+    <None Include="..\Makefile.am">
+      <Filter>Linux Files</Filter>
+    </None>
+    <None Include="..\automake.bat">
+      <Filter>Linux Files\Automake</Filter>
+    </None>
+    <None Include="..\configure.bat">
+      <Filter>Linux Files\Automake</Filter>
+    </None>
+    <None Include="makefile.win">
+      <Filter>Linux Files\Automake</Filter>
+    </None>
+    <None Include="..\makefile.win">
+      <Filter>Linux Files\Automake</Filter>
+    </None>
+    <None Include="test\alternate.glm">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="test\checkpoint_sim_test.glm">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="test\complex.glm">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="test\data.plt">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="test\debugger.conf">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="test\gnuplot.conf">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="test\gridlabd.conf">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="test\gui_example_1.glm">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="test\gui_example_2.glm">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="test\gui_example_3.glm">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="test\gui_example_4.glm">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="test\gui_example_4.html">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="master.glm">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="test\metronome.glm">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="test\mingw.conf">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="test\namespace.glm">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="..\test\input\office1000.glm">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="test\olypen.glm">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="test\olypen_clallam_temperature.tape">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="test\olypen_cooking.shape">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="test\olypen_expmt.glm">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="test\olypen_fixed_price.shape">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="test\olypen_hotwater.shape">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="test\olypen_library.glm">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="test\olypen_lighting.shape">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="test\olypen_midc_price.tape">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="test\olypen_occupancy.shape">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="test\olypen_plugs.shape">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="test\olypen_tou_price.shape">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="test\olypen_tou_price.tape">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="test\olypen_washing.shape">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="test\input\pnnl14bus.glm">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="test\input\pnnl300bus.glm">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="test\random_builtin.glm">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="test\random_property.glm">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="test\randoms.glm">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="test\input\residential_1home.glm">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="test\input\residential_5home.glm">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="..\test\input\residential_meter.glm">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="test\slave.glm">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="test\stylesheet.glm">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="autotest\test_c_include.glm">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="test\timestamp.glm">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="test\timestamp_euro.glm">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="test\timestamp_us.glm">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="test\US OR Medford.tmy">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="..\test\input\wheatstone_bridge.glm">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="autotest\test_bare_class.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_core_4blocks_schedule.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_core_4blocks_schedule.player">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_core_5blocks_schedule_exc.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_core_63_schedule.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_core_63_schedule.player">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_core_64_schedule_exc.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_core_player_schedule_1.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_core_player_schedule_1.player">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_core_player_schedule_2.player">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_exc_duplicate_function.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_exec_mainloop.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_external_null_source.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_global_unit_convert.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_groupid.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_inline_plc.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_loadshape_exercise_2_3_3.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_locale.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_opt_alternate_syntax.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_opt_commit.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_opt_core_pc_and_fn.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_opt_core_runtime_class.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_opt_runtime_exercise_3_1_1.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_parameter_expansion.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_quoted_value.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_schedule_xform.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_schedule_xform_external.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_script.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_script_err.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_script_event.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_seq.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_set_semicolon_err.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_simple_schedule.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_statefull_randomization.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_stream_out.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="rt\debugger.conf">
+      <Filter>Runtime Files</Filter>
+    </None>
+    <None Include="rt\gnuplot.conf">
+      <Filter>Runtime Files</Filter>
+    </None>
+    <None Include="rt\gridlabd.conf">
+      <Filter>Runtime Files</Filter>
+    </None>
+    <None Include="rt\mingw.conf">
+      <Filter>Runtime Files</Filter>
+    </None>
+    <None Include="rt\gridlabd.syn">
+      <Filter>Runtime Files\Support Files</Filter>
+    </None>
+    <None Include="..\models\COPYRIGHT">
+      <Filter>Runtime Files\Support Files\Models</Filter>
+    </None>
+    <None Include="..\models\dryer.shape">
+      <Filter>Runtime Files\Support Files\Models</Filter>
+    </None>
+    <None Include="..\models\LICENSE">
+      <Filter>Runtime Files\Support Files\Models</Filter>
+    </None>
+    <None Include="..\models\lighting.player">
+      <Filter>Runtime Files\Support Files\Models</Filter>
+    </None>
+    <None Include="..\models\powerflow_IEEE_37node.glm">
+      <Filter>Runtime Files\Support Files\Models</Filter>
+    </None>
+    <None Include="..\models\powerflow_IEEE_4node.glm">
+      <Filter>Runtime Files\Support Files\Models</Filter>
+    </None>
+    <None Include="..\models\README">
+      <Filter>Runtime Files\Support Files\Models</Filter>
+    </None>
+    <None Include="..\models\residential_loads.glm">
+      <Filter>Runtime Files\Support Files\Models</Filter>
+    </None>
+    <None Include="..\models\STATUS">
+      <Filter>Runtime Files\Support Files\Models</Filter>
+    </None>
+    <None Include="..\COPYRIGHT">
+      <Filter>Runtime Files\Support Files\Status</Filter>
+    </None>
+    <None Include="..\LICENSE">
+      <Filter>Runtime Files\Support Files\Status</Filter>
+    </None>
+    <None Include="..\README-LINUX">
+      <Filter>Runtime Files\Support Files\Status</Filter>
+    </None>
+    <None Include="..\RELEASE">
+      <Filter>Runtime Files\Support Files\Status</Filter>
+    </None>
+    <None Include="..\STATUS">
+      <Filter>Runtime Files\Support Files\Status</Filter>
+    </None>
+    <None Include="..\VERSION">
+      <Filter>Runtime Files\Support Files\Status</Filter>
+    </None>
+    <None Include="rt\gridlabd.css">
+      <Filter>Runtime Files\Support Files\WebGUI</Filter>
+    </None>
+    <None Include="rt\gridlabd.js">
+      <Filter>Runtime Files\Support Files\WebGUI</Filter>
+    </None>
+    <None Include="rt\about.htm">
+      <Filter>Runtime Files\HTML</Filter>
+    </None>
+    <None Include="rt\config.js">
+      <Filter>Runtime Files\HTML</Filter>
+    </None>
+    <None Include="rt\eula.htm">
+      <Filter>Runtime Files\HTML</Filter>
+    </None>
+    <None Include="rt\file_dialog.htm">
+      <Filter>Runtime Files\HTML</Filter>
+    </None>
+    <None Include="rt\gridlabd.htm">
+      <Filter>Runtime Files\HTML</Filter>
+    </None>
+    <None Include="rt\main.htm">
+      <Filter>Runtime Files\HTML</Filter>
+    </None>
+    <None Include="..\validate.py">
+      <Filter>Validation</Filter>
+    </None>
+    <None Include="..\validate_dev.py">
+      <Filter>Validation</Filter>
+    </None>
+    <None Include="..\validate_win32.py">
+      <Filter>Validation</Filter>
+    </None>
+    <None Include="..\validate_x64.py">
+      <Filter>Validation</Filter>
+    </None>
+    <None Include="..\utilities\buildnum.bat">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Makefile.am" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="test\versions.txt">
+      <Filter>Test Files</Filter>
+    </Text>
+    <Text Include="versions.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="rt\favicon.ico">
+      <Filter>Runtime Files\Support Files\WebGUI</Filter>
+    </Image>
+    <Image Include="gui\tab_b.gif">
+      <Filter>Runtime Files\Support Files\WebGUI</Filter>
+    </Image>
+    <Image Include="gui\tab_l.gif">
+      <Filter>Runtime Files\Support Files\WebGUI</Filter>
+    </Image>
+    <Image Include="gui\tab_r.gif">
+      <Filter>Runtime Files\Support Files\WebGUI</Filter>
+    </Image>
+    <Image Include="rt\gridlabd.jpg">
+      <Filter>Runtime Files\HTML</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\test\input\memory_tape.glm">
+      <Filter>Test Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="tzinfo.txt">
+      <Filter>Runtime Files\Support Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="unitfile.txt">
+      <Filter>Runtime Files\Support Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

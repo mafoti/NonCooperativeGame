@@ -1,0 +1,383 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Test Files">
+      <UniqueIdentifier>{49de9d81-d8a1-49a4-a272-b8bf069cb471}</UniqueIdentifier>
+      <Extensions>glm;csv;shaper;tape;player;txt;conf</Extensions>
+    </Filter>
+    <Filter Include="Test Files\Autotests">
+      <UniqueIdentifier>{c2377871-e2c7-4864-b5eb-e71cd5042162}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="auction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="curve.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="double_controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generator_controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="init.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="passive_controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stub_bidder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stubauction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="predict.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="trainer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\dlib-18.14\dlib\all\source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hvacGame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="auction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="controller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="curve.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="double_controller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="generator_controller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="market.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="passive_controller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stub_bidder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stubauction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="predict.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="trainer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hvacGame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="test\test.glm">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="test\test.player">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="test\test.shaper">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="autotest\appliance_schedules.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\ColumbusWeather2009_Correct.csv">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\dutycycle_CPP_player.player">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\dutycycle_TOU_player.player">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\Elasticity_Multiplier_NonCritical_With_Three_TierCPP.player">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\Elasticity_Multiplier_NonCritical_With_Two_TierCPP.player">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\Elasticity_Multiplier_Three_Tier_Price.player">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\Elasticity_Multiplier_Two_Tier_Price.player">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\lastP_static.player">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\negative_price_bids.player">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\negative_quantity_bids.player">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\Price_Changing.player">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\Price_Static.player">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\repeated_bids.player">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\test_dutycycle_CPP.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\test_dutycycle_TOU.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\test_market_auction_advanced_1.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\test_market_auction_clearing_3.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\test_market_auction_clearing_6_morebuyers.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\test_market_auction_clearing_6_moresellers.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\test_market_auction_timing_1.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\test_market_auction_timing_2.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\test_market_auction_timing_4.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\test_market_auction_timing_5.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\test_market_exercise_4_4_1.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\test_market_passive_controller_RAMP_mode_matching_period.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\test_market_passive_controller_RAMP_mode_nonmatching_period.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\test_market_quantity_conversion.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\test_markets_auction_buyer_rebid.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\test_markets_auction_buyer_seller_alt.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\test_markets_auction_buyers_first.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\test_markets_auction_cases_4_and_5.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\test_markets_auction_large_balanced_exact.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\test_markets_auction_large_unbalanced_bid_resubmissions.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\test_markets_auction_large_unbalanced_exact.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\test_markets_auction_large_unbalanced_failure.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\test_markets_auction_large_unbalanced_marginal_buyer.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\test_markets_auction_large_unbalanced_marginal_price.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\test_markets_auction_large_unbalanced_marginal_seller.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\test_markets_auction_large_unbalanced_no_buyers_null.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\test_markets_auction_large_unbalanced_no_sellers_null.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\test_markets_auction_large_unbalanced_null.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\test_markets_auction_negative_all_quantities.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\test_markets_auction_negative_buyer_and_seller_price.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\test_markets_auction_negative_buyer_price.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\test_markets_auction_negative_buyer_quantity.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\test_markets_auction_negative_price_bids.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\test_markets_auction_negative_quantity_bids.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\test_markets_auction_negative_seller_price.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\test_markets_auction_negative_seller_quantity.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\test_markets_auction_no_buyers.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\test_markets_auction_no_sellers.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\test_markets_auction_null_market.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\test_markets_auction_repeated_bids.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\test_markets_auction_seller_buyer_alt.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\test_markets_auction_seller_rebid.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\test_markets_auction_sellers_first.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\test_markets_auction_simultaneous.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\test_markets_auction_unresponsive_buyer_failure.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\test_markets_controller_cooling_deadband_matching_period.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\test_markets_controller_cooling_inelastic_double.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\test_markets_controller_cooling_inelastic_matching_period.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\test_markets_controller_cooling_inelastic_nonmatching_periods.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\test_markets_controller_heating_deadband_matching_period.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\test_markets_controller_heating_inelastic_double.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\test_markets_controller_heating_inelastic_matching_period.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\test_markets_controller_heating_inelastic_nonmatching_period.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\test_markets_stubauction_opt.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\test_opt_markets_auction_large_balanced_marginal_buyer.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\test_opt_markets_auction_large_balanced_marginal_price.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\test_opt_markets_auction_large_balanced_marginal_seller.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\test_skew_DST_fall.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\test_skew_DST_spring.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\test_skew_leap_years.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\test_skew_year_transitions.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\test_stubauction.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\test_unitless_bid_quantity_err.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\test_Zip_Load_Elasticity_Model_Critical_Three_Tier_Price.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\test_Zip_Load_Elasticity_Model_Critical_Two_Tier_Price.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\test_Zip_Load_Elasticity_Model_NonCritical_With_Three_TierCPP.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\test_Zip_Load_Elasticity_Model_NonCritical_With_Two_TierCPP.glm">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\TOU_Pricing.player">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\TOU_Pricing_2Tier_OnlyCritical.player">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\TOU_Pricing_2Tier_OnlyHigh.player">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\TOU_Pricing_3Tier.player">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+    <None Include="autotest\WA-Yakima.tmy2">
+      <Filter>Test Files\Autotests</Filter>
+    </None>
+  </ItemGroup>
+</Project>

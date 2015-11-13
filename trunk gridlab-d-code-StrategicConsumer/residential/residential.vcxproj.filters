@@ -1,0 +1,732 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Test Files">
+      <UniqueIdentifier>{507899e1-2262-45b1-84ae-0c67b1bfff2e}</UniqueIdentifier>
+      <Extensions>glm;shape;player;csv</Extensions>
+    </Filter>
+    <Filter Include="Test Files\Autotest">
+      <UniqueIdentifier>{91aa89e9-6646-48bb-992d-c1393b4a160b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="appliance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="clotheswasher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dishwasher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dryer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="evcharger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="evcharger_det.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="freezer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="house_a.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="house_e.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="init.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lights.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="microwave.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="occupantload.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="plugload.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="range.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="refrigerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="residential_enduse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="solvers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="thermal_storage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="waterheater.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="zipload.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="jacuzzi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="appliance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clotheswasher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dishwasher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dryer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="evcharger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="evcharger_det.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="freezer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="house_a.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="house_e.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lights.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="microwave.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="occupantload.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="plugload.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="range.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="refrigerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="residential.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="residential_enduse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="solvers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="thermal_storage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="waterheater.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zipload.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="jacuzzi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="test\evcharger.glm">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="test\evcharger_demand_profile.csv">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="..\test\input\residential_1home.glm">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="..\test\input\residential_5home.glm">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="test\residential_implicit_all.glm">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="..\test\input\residential_meter.glm">
+      <Filter>Test Files</Filter>
+    </None>
+    <None Include="autotest\appliance_schedules.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\AZ-Phoenix.tmy2">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\CA-San_francisco.tmy2">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\clotheswasher.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\clotheswasher_out.player">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\clotheswasher_output.player">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\Dishwasher.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\dishwasher_output.player">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\dr_mode_normal.player">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\Dryer.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\dryer_output.player">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\FL-Miami.tmy2">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\generic_demand.glt">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\generic_fail_demand(range0-1).glt">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\IL-Chicago.tmy2">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\lights_power.m">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\Olympia.tmy2">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\plugload_demand_range_bounds.player">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\plugload_enduse_load.player">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\plugload_energy_meter.player">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\plugload_internal_gains.player">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\plugload_internal_gains_hf.player">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\Range.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\range_output.player">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\Refrigerator.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\refrigerator_out.player">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\setpoint_schedule.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_appliance.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_clotheswasher.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_clotheswasher_explicit_energy_swd.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_clotheswasher_explicit_energy_swd_opt.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_clotheswasher_explicit_energy_swy.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_clotheswasher_explicit_energy_swy_opt.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_clotheswasher_explicit_energy_wwd.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_clotheswasher_explicit_energy_wwd_opt.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_clotheswasher_explicit_energy_wwy.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_clotheswasher_explicit_energy_wwy_opt.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_clotheswasher_implicit.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_dishwasher.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_dishwasher_explicit_power1.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_dishwasher_explicit_power1_opt.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_dishwasher_explicit_power2.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_dishwasher_explicit_power2_opt.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_dishwasher_implicit.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_dryer.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_dryer_explicit_energy_swd.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_dryer_explicit_energy_swd_opt.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_dryer_explicit_energy_swy.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_dryer_explicit_energy_swy_opt.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_dryer_explicit_energy_wwd.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_dryer_explicit_energy_wwd_opt.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_dryer_explicit_energy_wwy.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_dryer_explicit_energy_wwy_opt.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_dryer_implicit.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_evcharger_det_m1.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_evcharger_det_m1_default.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_evcharger_det_m1_minTS.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_freezer_deadband.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_freezer_deadband_opt.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_freezer_implicit.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_freezer_implicit_opt.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_generic_limit_demand(range0-1).glt">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_generic_limit_demand.player">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_HVAC_balance.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_HVAC_common_cool.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_HVAC_common_heat.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_HVAC_peak_cool.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_HVAC_peak_heat.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_lights_exp.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_lights_explicit_power1.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_lights_explicit_power1.player">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_lights_explicit_power2.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_lights_explicit_power2.player">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_lights_explicit_power3.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_lights_explicit_power3.player">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_lights_explicit_power4.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_lights_explicit_power4.player">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_lights_imp.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_lights_implicit.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_lights_implicit_power1.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_lights_implicit_power2.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_lights_implicit_power3.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_lights_implicit_power4.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_lights_standalone.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_microwave_cycle_length_limits_err.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_microwave_demand_limits.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_microwave_demand_limits_opt.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_microwave_energy.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_microwave_energy.glt">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_microwave_energy.m">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_microwave_energy.player">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_microwave_energy_accumulation.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_microwave_energy_accumulation.m">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_microwave_energy_accumulation.player">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_microwave_energy_opt.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_microwave_explicit_swd.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_microwave_explicit_swd_opt.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_microwave_explicit_swy.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_microwave_explicit_swy_opt.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_microwave_explicit_wwd.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_microwave_explicit_wwd_opt.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_microwave_explicit_wwy.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_microwave_explicit_wwy_opt.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_microwave_implicit.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_microwave_implicit_swd.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_microwave_implicit_swd_opt.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_microwave_implicit_swy.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_microwave_implicit_swy_opt.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_microwave_implicit_wwd.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_microwave_implicit_wwd_opt.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_microwave_implicit_wwy.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_microwave_implicit_wwy_opt.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_microwave_internal_gains.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_microwave_internal_gains_0.player">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_microwave_internal_gains_1.player">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_microwave_internal_gains_opt.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_microwave_standby_power_limits.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_microwave_standby_power_limits.player">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_microwave_standby_power_limits_opt.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_occupantload_enduse_load0.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_plugload_demand_range_bounds.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_plugload_demand_range_bounds_opt.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_plugload_enduse_load.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_plugload_enduse_load_swd.player">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_plugload_enduse_load_swy.player">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_plugload_enduse_load_wwy.player">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_plugload_energy_meter.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_plugload_energy_meter_opt.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_plugload_energy_swd.player">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_plugload_energy_swy.player">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_plugload_energy_wwd.player">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_plugload_energy_wwy.player">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_plugload_explicit_swd.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_plugload_explicit_swy.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_plugload_explicit_wwd.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_plugload_explicit_wwd_opt.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_plugload_explicit_wwy.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_plugload_heatgain_swd.player">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_plugload_heatgain_swy.player">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_plugload_heatgain_wwd.player">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_plugload_heatgain_wwy.player">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_plugload_implicit_swd.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_plugload_implicit_swd_opt.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_plugload_implicit_swy.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_plugload_implicit_swy_opt.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_plugload_implicit_wwd.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_plugload_implicit_wwd_opt.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_plugload_implicit_wwy.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_plugload_implicit_wwy_opt.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_plugload_internal_gains.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_plugload_internal_gains_hf.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_plugload_internal_gains_opt.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_range.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_range_explicit_energy1.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_range_explicit_energy1_opt.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_range_explicit_energy2.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_range_explicit_energy2_opt.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_range_explicit_energy3.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_range_explicit_energy3_opt.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_range_explicit_energy4.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_range_explicit_energy4_opt.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_range_implicit.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_range_implicit_opt.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_range_power.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_range_power.player">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_range_power_opt.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_Refrigerator.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_refrigerator_implicit.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_residential_exercise_5_2_1.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_residentialenduse_standalone.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_solargains.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_thermal_storage_autotest.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_thermal_storage_energy.player">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_thermal_storage_SOC.player">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_waterheater_implicit.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_waterheater_standalone.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\test_zipload_pow_en_hg.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\TN-Nashville.tmy2">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\WA-Yakima.tmy2">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\water_schedule.glm">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\waterheater_demand_waveform_sawtooth1.player">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\waterheater_demand_waveform_sawtooth2.player">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\waterheater_demand_waveform_sine.player">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="autotest\waterheater_demand_waveform_square.player">
+      <Filter>Test Files\Autotest</Filter>
+    </None>
+    <None Include="Makefile.am" />
+  </ItemGroup>
+</Project>

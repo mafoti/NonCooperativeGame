@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="QuickDebug|Win32">
+      <Configuration>QuickDebug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="QuickDebug|x64">
+      <Configuration>QuickDebug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B99E7151-0A71-412A-9D3F-7D5F82887F14}</ProjectGuid>
+    <RootNamespace>gridlabd</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='QuickDebug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='QuickDebug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='QuickDebug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='QuickDebug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>12.0.30501.0</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\VS2005\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <ExtensionsToDeleteOnClean>*.obj%3b*.ilk%3b*.tlb%3b*.tli%3b*.tlh%3b*.tmp%3b*.rsp%3b*.pgc%3b*.pgd%3b$(TargetPath)</ExtensionsToDeleteOnClean>
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\MySQL\Connector.C++ 1.1\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\MySQL\Connector.C++ 1.1\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>..\VS2005\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <ExtensionsToDeleteOnClean>*.obj%3b*.ilk%3b*.tlb%3b*.tli%3b*.tlh%3b*.tmp%3b*.rsp%3b*.pgc%3b*.pgd%3b$(TargetPath)</ExtensionsToDeleteOnClean>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\VS2005\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <ExtensionsToDeleteOnClean>*.obj%3b*.ilk%3b*.tlb%3b*.tli%3b*.tlh%3b*.tmp%3b*.rsp%3b*.pgc%3b*.pgd%3b$(TargetPath)</ExtensionsToDeleteOnClean>
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\MySQL\Connector.C++ 1.1\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\MySQL\Connector.C++ 1.1\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>..\VS2005\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <ExtensionsToDeleteOnClean>*.obj%3b*.ilk%3b*.tlb%3b*.tli%3b*.tlh%3b*.tmp%3b*.rsp%3b*.pgc%3b*.pgd%3b$(TargetPath)</ExtensionsToDeleteOnClean>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='QuickDebug|Win32'">
+    <OutDir>..\VS2005\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <ExtensionsToDeleteOnClean>*.obj%3b*.ilk%3b*.tlb%3b*.tli%3b*.tlh%3b*.tmp%3b*.rsp%3b*.pgc%3b*.pgd%3b$(TargetPath)</ExtensionsToDeleteOnClean>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='QuickDebug|x64'">
+    <OutDir>..\VS2005\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <ExtensionsToDeleteOnClean>*.obj%3b*.ilk%3b*.tlb%3b*.tli%3b*.tlh%3b*.tmp%3b*.rsp%3b*.pgc%3b*.pgd%3b$(TargetPath)</ExtensionsToDeleteOnClean>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>C:\Users\mafoti\Documents\boost_1_46_1;..\core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;_CRT_SECURE_NO_DEPRECATE;CPPCONN_PUBLIC_FUNC=;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(SolutionDir)\$(OutDir)$(ProjectName).dll</OutputFile>
+      <AdditionalLibraryDirectories>C:\Users\mafoti\Documents\boost_1_46_1\libs;C:\Program Files %28x86%29\MySQL\Connector.C++ 1.1\lib\opt;$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalDependencies>mysqlcppconn.lib;libmysql.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>C:\Users\mafoti\Documents\New folder;$(OutDir);$(SolutionDir)$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\mafoti\Documents\dlib-18.14;C:\Users\mafoti\Documents\boost_1_46_1;..\core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;_CRT_SECURE_NO_DEPRECATE;_NO_CPPUNIT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(SolutionDir)\$(OutDir)$(ProjectName).dll</OutputFile>
+      <AdditionalLibraryDirectories>C:\Program Files %28x86%29\MySQL\Connector.C++ 1.1\lib\opt;C:\Users\mafoti\Documents\boost_1_46_1\libs;$(OutDir);$(SolutionDir)$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalDependencies>mysqlcppconn.lib;libmysql.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;_CRT_SECURE_NO_DEPRECATE;_NO_CPPUNIT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(OutDir);$(SolutionDir)$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='QuickDebug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='QuickDebug|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\dlib-18.14\dlib\all\source.cpp" />
+    <ClCompile Include="auction.cpp" />
+    <ClCompile Include="bid.cpp" />
+    <ClCompile Include="controller.cpp" />
+    <ClCompile Include="curve.cpp" />
+    <ClCompile Include="double_controller.cpp" />
+    <ClCompile Include="game.cpp" />
+    <ClCompile Include="generator_controller.cpp" />
+    <ClCompile Include="hvacGame.cpp" />
+    <ClCompile Include="init.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="passive_controller.cpp" />
+    <ClCompile Include="predict.cpp" />
+    <ClCompile Include="stubauction.cpp" />
+    <ClCompile Include="stub_bidder.cpp" />
+    <ClCompile Include="trainer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="auction.h" />
+    <ClInclude Include="bid.h" />
+    <ClInclude Include="controller.h" />
+    <ClInclude Include="curve.h" />
+    <ClInclude Include="double_controller.h" />
+    <ClInclude Include="game.h" />
+    <ClInclude Include="generator_controller.h" />
+    <ClInclude Include="hvacGame.h" />
+    <ClInclude Include="market.h" />
+    <ClInclude Include="passive_controller.h" />
+    <ClInclude Include="predict.h" />
+    <ClInclude Include="stubauction.h" />
+    <ClInclude Include="stub_bidder.h" />
+    <ClInclude Include="trainer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="autotest\appliance_schedules.glm" />
+    <None Include="autotest\ColumbusWeather2009_Correct.csv" />
+    <None Include="autotest\dutycycle_CPP_player.player" />
+    <None Include="autotest\dutycycle_TOU_player.player" />
+    <None Include="autotest\Elasticity_Multiplier_NonCritical_With_Three_TierCPP.player" />
+    <None Include="autotest\Elasticity_Multiplier_NonCritical_With_Two_TierCPP.player" />
+    <None Include="autotest\Elasticity_Multiplier_Three_Tier_Price.player" />
+    <None Include="autotest\Elasticity_Multiplier_Two_Tier_Price.player" />
+    <None Include="autotest\lastP_static.player" />
+    <None Include="autotest\negative_price_bids.player" />
+    <None Include="autotest\negative_quantity_bids.player" />
+    <None Include="autotest\Price_Changing.player" />
+    <None Include="autotest\Price_Static.player" />
+    <None Include="autotest\repeated_bids.player" />
+    <None Include="autotest\test_dutycycle_CPP.glm" />
+    <None Include="autotest\test_dutycycle_TOU.glm" />
+    <None Include="autotest\test_markets_auction_buyers_first.glm" />
+    <None Include="autotest\test_markets_auction_buyer_rebid.glm" />
+    <None Include="autotest\test_markets_auction_buyer_seller_alt.glm" />
+    <None Include="autotest\test_markets_auction_cases_4_and_5.glm" />
+    <None Include="autotest\test_markets_auction_large_balanced_exact.glm" />
+    <None Include="autotest\test_markets_auction_large_unbalanced_bid_resubmissions.glm" />
+    <None Include="autotest\test_markets_auction_large_unbalanced_exact.glm" />
+    <None Include="autotest\test_markets_auction_large_unbalanced_failure.glm" />
+    <None Include="autotest\test_markets_auction_large_unbalanced_marginal_buyer.glm" />
+    <None Include="autotest\test_markets_auction_large_unbalanced_marginal_price.glm" />
+    <None Include="autotest\test_markets_auction_large_unbalanced_marginal_seller.glm" />
+    <None Include="autotest\test_markets_auction_large_unbalanced_no_buyers_null.glm" />
+    <None Include="autotest\test_markets_auction_large_unbalanced_no_sellers_null.glm" />
+    <None Include="autotest\test_markets_auction_large_unbalanced_null.glm" />
+    <None Include="autotest\test_markets_auction_negative_all_quantities.glm" />
+    <None Include="autotest\test_markets_auction_negative_buyer_and_seller_price.glm" />
+    <None Include="autotest\test_markets_auction_negative_buyer_price.glm" />
+    <None Include="autotest\test_markets_auction_negative_buyer_quantity.glm" />
+    <None Include="autotest\test_markets_auction_negative_price_bids.glm" />
+    <None Include="autotest\test_markets_auction_negative_quantity_bids.glm" />
+    <None Include="autotest\test_markets_auction_negative_seller_price.glm" />
+    <None Include="autotest\test_markets_auction_negative_seller_quantity.glm" />
+    <None Include="autotest\test_markets_auction_no_buyers.glm" />
+    <None Include="autotest\test_markets_auction_no_sellers.glm" />
+    <None Include="autotest\test_markets_auction_null_market.glm" />
+    <None Include="autotest\test_markets_auction_repeated_bids.glm" />
+    <None Include="autotest\test_markets_auction_sellers_first.glm" />
+    <None Include="autotest\test_markets_auction_seller_buyer_alt.glm" />
+    <None Include="autotest\test_markets_auction_seller_rebid.glm" />
+    <None Include="autotest\test_markets_auction_simultaneous.glm" />
+    <None Include="autotest\test_markets_auction_unresponsive_buyer_failure.glm" />
+    <None Include="autotest\test_markets_controller_cooling_deadband_matching_period.glm" />
+    <None Include="autotest\test_markets_controller_cooling_inelastic_double.glm" />
+    <None Include="autotest\test_markets_controller_cooling_inelastic_matching_period.glm" />
+    <None Include="autotest\test_markets_controller_cooling_inelastic_nonmatching_periods.glm" />
+    <None Include="autotest\test_markets_controller_heating_deadband_matching_period.glm" />
+    <None Include="autotest\test_markets_controller_heating_inelastic_double.glm" />
+    <None Include="autotest\test_markets_controller_heating_inelastic_matching_period.glm" />
+    <None Include="autotest\test_markets_controller_heating_inelastic_nonmatching_period.glm" />
+    <None Include="autotest\test_markets_stubauction_opt.glm" />
+    <None Include="autotest\test_market_auction_advanced_1.glm" />
+    <None Include="autotest\test_market_auction_clearing_3.glm" />
+    <None Include="autotest\test_market_auction_clearing_6_morebuyers.glm" />
+    <None Include="autotest\test_market_auction_clearing_6_moresellers.glm" />
+    <None Include="autotest\test_market_auction_timing_1.glm" />
+    <None Include="autotest\test_market_auction_timing_2.glm" />
+    <None Include="autotest\test_market_auction_timing_4.glm" />
+    <None Include="autotest\test_market_auction_timing_5.glm" />
+    <None Include="autotest\test_market_exercise_4_4_1.glm" />
+    <None Include="autotest\test_market_passive_controller_RAMP_mode_matching_period.glm" />
+    <None Include="autotest\test_market_passive_controller_RAMP_mode_nonmatching_period.glm" />
+    <None Include="autotest\test_market_quantity_conversion.glm" />
+    <None Include="autotest\test_opt_markets_auction_large_balanced_marginal_buyer.glm" />
+    <None Include="autotest\test_opt_markets_auction_large_balanced_marginal_price.glm" />
+    <None Include="autotest\test_opt_markets_auction_large_balanced_marginal_seller.glm" />
+    <None Include="autotest\test_skew_DST_fall.glm" />
+    <None Include="autotest\test_skew_DST_spring.glm" />
+    <None Include="autotest\test_skew_leap_years.glm" />
+    <None Include="autotest\test_skew_year_transitions.glm" />
+    <None Include="autotest\test_stubauction.glm" />
+    <None Include="autotest\test_unitless_bid_quantity_err.glm" />
+    <None Include="autotest\test_Zip_Load_Elasticity_Model_Critical_Three_Tier_Price.glm" />
+    <None Include="autotest\test_Zip_Load_Elasticity_Model_Critical_Two_Tier_Price.glm" />
+    <None Include="autotest\test_Zip_Load_Elasticity_Model_NonCritical_With_Three_TierCPP.glm" />
+    <None Include="autotest\test_Zip_Load_Elasticity_Model_NonCritical_With_Two_TierCPP.glm" />
+    <None Include="autotest\TOU_Pricing.player" />
+    <None Include="autotest\TOU_Pricing_2Tier_OnlyCritical.player" />
+    <None Include="autotest\TOU_Pricing_2Tier_OnlyHigh.player" />
+    <None Include="autotest\TOU_Pricing_3Tier.player" />
+    <None Include="autotest\WA-Yakima.tmy2" />
+    <None Include="test\test.glm" />
+    <None Include="test\test.player" />
+    <None Include="test\test.shaper" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

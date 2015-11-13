@@ -1,0 +1,62 @@
+﻿Build started 24-Mar-15 2:29:00 PM.
+     1>Project "C:\Users\mafoti\Documents\Visual Studio 2013\Projects\trunk gridlab-d-code\market\market.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\mafoti\Documents\boost_1_46_1 /I..\core /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D _CRT_SECURE_NO_DEPRECATE /D CPPCONN_PUBLIC_FUNC= /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Win32\Debug\market\\" /Fd"Win32\Debug\market\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt auction.cpp bid.cpp controller.cpp curve.cpp double_controller.cpp generator_controller.cpp init.cpp main.cpp passive_controller.cpp predict.cpp stubauction.cpp stub_bidder.cpp
+         stub_bidder.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(102): warning C4005: 'INFINITY' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46) : see previous definition of 'INFINITY'
+         stubauction.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(102): warning C4005: 'INFINITY' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46) : see previous definition of 'INFINITY'
+         predict.cpp
+         Unknown compiler version - please run the configure tests and report the results
+         passive_controller.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(102): warning C4005: 'INFINITY' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46) : see previous definition of 'INFINITY'
+         main.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(102): warning C4005: 'INFINITY' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46) : see previous definition of 'INFINITY'
+         init.cpp
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46): warning C4005: 'INFINITY' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(102) : see previous definition of 'INFINITY'
+         generator_controller.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(102): warning C4005: 'INFINITY' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46) : see previous definition of 'INFINITY'
+         double_controller.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(102): warning C4005: 'INFINITY' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46) : see previous definition of 'INFINITY'
+         curve.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(102): warning C4005: 'INFINITY' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46) : see previous definition of 'INFINITY'
+         controller.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(102): warning C4005: 'INFINITY' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46) : see previous definition of 'INFINITY'
+         bid.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(102): warning C4005: 'INFINITY' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46) : see previous definition of 'INFINITY'
+         auction.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(102): warning C4005: 'INFINITY' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46) : see previous definition of 'INFINITY'
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\market\auction.cpp(252): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\mafoti\Documents\Visual Studio 2013\Projects\trunk gridlab-d-code\market\\..\VS2005\Win32\Debug\market.dll" /INCREMENTAL /NOLOGO /LIBPATH:C:\Users\mafoti\Documents\boost_1_46_1\libs /LIBPATH:"C:\Program Files (x86)\MySQL\Connector.C++ 1.1\lib\opt" /LIBPATH:..\VS2005\Win32\Debug\ mysqlcppconn.lib libmysql.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\VS2005\Win32\Debug\market.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\VS2005\Win32\Debug\market.lib" /MACHINE:X86 /SAFESEH /DLL Win32\Debug\market\auction.obj
+         Win32\Debug\market\bid.obj
+         Win32\Debug\market\controller.obj
+         Win32\Debug\market\curve.obj
+         Win32\Debug\market\double_controller.obj
+         Win32\Debug\market\generator_controller.obj
+         Win32\Debug\market\init.obj
+         Win32\Debug\market\main.obj
+         Win32\Debug\market\passive_controller.obj
+         Win32\Debug\market\predict.obj
+         Win32\Debug\market\stubauction.obj
+         Win32\Debug\market\stub_bidder.obj
+     1>auction.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+            Creating library ..\VS2005\Win32\Debug\market.lib and object ..\VS2005\Win32\Debug\market.exp
+         market.vcxproj -> C:\Users\mafoti\Documents\Visual Studio 2013\Projects\trunk gridlab-d-code\market\..\VS2005\Win32\Debug\market.dll
+     1>Done Building Project "C:\Users\mafoti\Documents\Visual Studio 2013\Projects\trunk gridlab-d-code\market\market.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.24

@@ -1,0 +1,71 @@
+﻿Build started 20-May-15 10:08:43 AM.
+     1>Project "C:\Users\mafoti\Documents\Visual Studio 2013\Projects\trunk gridlab-d-code\generators2\generators.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\core /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D _CRT_SECURE_NO_DEPRECATE /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Win32\Debug\generators\\" /Fd"Win32\Debug\generators\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt battery.cpp central_dg_control.cpp dc_dc_converter.cpp diesel_dg.cpp energy_storage.cpp init.cpp inverter.cpp main.cpp microturbine.cpp power_electronics.cpp rectifier.cpp solar.cpp windturb_dg.cpp
+         windturb_dg.cpp
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46): warning C4005: 'INFINITY' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(102) : see previous definition of 'INFINITY'
+         solar.cpp
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46): warning C4005: 'INFINITY' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(102) : see previous definition of 'INFINITY'
+         rectifier.cpp
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46): warning C4005: 'INFINITY' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(102) : see previous definition of 'INFINITY'
+         power_electronics.cpp
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46): warning C4005: 'INFINITY' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(102) : see previous definition of 'INFINITY'
+         microturbine.cpp
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46): warning C4005: 'INFINITY' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(102) : see previous definition of 'INFINITY'
+         main.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(102): warning C4005: 'INFINITY' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46) : see previous definition of 'INFINITY'
+         inverter.cpp
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46): warning C4005: 'INFINITY' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(102) : see previous definition of 'INFINITY'
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\generators2\inverter.cpp(2667): warning C4101: 'Q_load' : unreferenced local variable
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\generators2\inverter.cpp(2667): warning C4101: 'Q_required' : unreferenced local variable
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\generators2\inverter.cpp(2667): warning C4101: 'available_VA' : unreferenced local variable
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\generators2\inverter.cpp(2667): warning C4101: 'new_Q_out' : unreferenced local variable
+         init.cpp
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46): warning C4005: 'INFINITY' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(102) : see previous definition of 'INFINITY'
+         energy_storage.cpp
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46): warning C4005: 'INFINITY' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(102) : see previous definition of 'INFINITY'
+         diesel_dg.cpp
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46): warning C4005: 'INFINITY' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(102) : see previous definition of 'INFINITY'
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\generators2\diesel_dg.cpp(859): warning C4101: 'time' : unreferenced local variable
+         dc_dc_converter.cpp
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46): warning C4005: 'INFINITY' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(102) : see previous definition of 'INFINITY'
+         central_dg_control.cpp
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46): warning C4005: 'INFINITY' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(102) : see previous definition of 'INFINITY'
+         battery.cpp
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46): warning C4005: 'INFINITY' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(102) : see previous definition of 'INFINITY'
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\VS2005\Win32\Debug\generators.dll" /INCREMENTAL /NOLOGO /LIBPATH:..\VS2005\Win32\Debug\ kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\VS2005\Win32\Debug\generators.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\VS2005\Win32\Debug\generators.lib" /MACHINE:X86 /SAFESEH /DLL Win32\Debug\generators\battery.obj
+         Win32\Debug\generators\central_dg_control.obj
+         Win32\Debug\generators\dc_dc_converter.obj
+         Win32\Debug\generators\diesel_dg.obj
+         Win32\Debug\generators\energy_storage.obj
+         Win32\Debug\generators\init.obj
+         Win32\Debug\generators\inverter.obj
+         Win32\Debug\generators\main.obj
+         Win32\Debug\generators\microturbine.obj
+         Win32\Debug\generators\power_electronics.obj
+         Win32\Debug\generators\rectifier.obj
+         Win32\Debug\generators\solar.obj
+         Win32\Debug\generators\windturb_dg.obj
+     1>battery.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+            Creating library ..\VS2005\Win32\Debug\generators.lib and object ..\VS2005\Win32\Debug\generators.exp
+         generators.vcxproj -> C:\Users\mafoti\Documents\Visual Studio 2013\Projects\trunk gridlab-d-code\generators2\..\VS2005\Win32\Debug\generators.dll
+     1>Done Building Project "C:\Users\mafoti\Documents\Visual Studio 2013\Projects\trunk gridlab-d-code\generators2\generators.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.54

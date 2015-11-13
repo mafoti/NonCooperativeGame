@@ -1,0 +1,21 @@
+﻿Build started 16-Mar-15 4:55:15 PM.
+     1>Project "C:\Users\mafoti\Documents\Visual Studio 2013\Projects\trunk gridlab-d-code\market\market.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"..\VS2005\x64\Debug\market.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\mafoti\Documents\New folder" /LIBPATH:..\VS2005\x64\Debug\ /LIBPATH:"C:\Users\mafoti\Documents\Visual Studio 2013\Projects\trunk gridlab-d-code\market\x64\Debug" pthreadVC2.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\VS2005\x64\Debug\market.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\VS2005\x64\Debug\market.lib" /MACHINE:X64 /DLL x64\Debug\market\auction.obj
+         x64\Debug\market\bid.obj
+         x64\Debug\market\controller.obj
+         x64\Debug\market\curve.obj
+         x64\Debug\market\double_controller.obj
+         x64\Debug\market\generator_controller.obj
+         x64\Debug\market\init.obj
+         x64\Debug\market\main.obj
+         x64\Debug\market\passive_controller.obj
+         x64\Debug\market\stubauction.obj
+         x64\Debug\market\stub_bidder.obj
+            Creating library ..\VS2005\x64\Debug\market.lib and object ..\VS2005\x64\Debug\market.exp
+         market.vcxproj -> C:\Users\mafoti\Documents\Visual Studio 2013\Projects\trunk gridlab-d-code\market\..\VS2005\x64\Debug\market.dll
+     1>Done Building Project "C:\Users\mafoti\Documents\Visual Studio 2013\Projects\trunk gridlab-d-code\market\market.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.68
